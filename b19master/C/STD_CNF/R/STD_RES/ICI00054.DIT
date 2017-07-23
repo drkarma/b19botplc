@@ -1,0 +1,112 @@
+(*
+T: FUNCTION_BLOCK PID
+FW: YES	NO_VARIANT PID SKIP_NOTHING	
+CI#: 54
+QSL: 0
+QVE: 17
+QPar: 10
+QFBI: 0
+*)
+
+ENABLE	1	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+AUTO	2	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+PV	3	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+SP	4	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+X0	5	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+KP	6	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+TR	7	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+TD	8	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+CYCLE	9	VAR_INPUT	@TYP:12	
+	
+
+;
+
+
+XOUT	10	VAR_OUTPUT	@TYP:10	
+	
+
+;
+
+
+ERROR	11	VAR	@TYP:10	
+	
+
+;
+
+
+D_X1	12	VAR	@TYP:10	
+	
+
+;
+
+
+D_X2	13	VAR	@TYP:10	
+	
+
+;
+
+
+D_X3	14	VAR	@TYP:10	
+	
+
+;
+
+
+D_XOUT	15	VAR	@TYP:10	
+	
+
+;
+
+
+I_XOUT	16	VAR	@TYP:10	
+	
+
+;
+
+
+B_AUTO	17	VAR	@TYP:17	
+	
+
+;
+
+

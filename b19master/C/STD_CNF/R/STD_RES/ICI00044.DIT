@@ -1,0 +1,754 @@
+(*
+T: PROGRAM STYRNINGAR
+FW: NO
+CI#: 44
+QSL: 124
+QVE: 124
+QVPC: 124
+QPar: 0
+QFBI: 13
+*)
+@V 1 6 0
+OF_1	1	VAR_EXTERNAL	@TYP:1
+@RV 75		     
+
+;
+
+@V 1 7 0
+OF_1_MAN	2	VAR_EXTERNAL	@TYP:1
+@RV 197		     
+
+;
+
+@V 1 8 0
+AUTO	3	VAR_EXTERNAL	@TYP:1
+@RV 215		     
+
+;
+
+@V 1 9 0
+FYLL_STEG_1	4	VAR_EXTERNAL	@TYP:1
+@RV 346		     
+
+;
+
+@V 1 10 0
+FYLL_STEG_2	5	VAR_EXTERNAL	@TYP:1
+@RV 347		     
+
+;
+
+@V 1 11 0
+FYLL_STEG_3	6	VAR_EXTERNAL	@TYP:1
+@RV 348		     
+
+;
+
+@V 1 12 0
+FYLL_STEG_4	7	VAR_EXTERNAL	@TYP:1
+@RV 349		     
+
+;
+
+@V 1 13 0
+OC_1	8	VAR_EXTERNAL	@TYP:1
+@RV 76		     
+
+;
+
+@V 1 14 0
+OC_1_MAN	9	VAR_EXTERNAL	@TYP:1
+@RV 198		     
+
+;
+
+@V 1 15 0
+KAP_STEG_1	10	VAR_EXTERNAL	@TYP:1
+@RV 374		     
+
+;
+
+@V 1 16 0
+OP_1_MAN	11	VAR_EXTERNAL	@TYP:1
+@RV 199		     
+
+;
+
+@V 1 17 0
+OP_1	12	VAR_EXTERNAL	@TYP:1
+@RV 77		     
+
+;
+
+@V 1 18 0
+UTM_STEG_1	13	VAR_EXTERNAL	@TYP:1
+@RV 402		     
+
+;
+
+@V 1 19 0
+OL_1_MAN	14	VAR_EXTERNAL	@TYP:1
+@RV 200		     
+
+;
+
+@V 1 20 0
+INM_STEG_1	15	VAR_EXTERNAL	@TYP:1
+@RV 320		     
+
+;
+
+@V 1 21 0
+INM_STEG_2	16	VAR_EXTERNAL	@TYP:1
+@RV 321		     
+
+;
+
+@V 1 22 0
+OCO_1	17	VAR_EXTERNAL	@TYP:1
+@RV 79		     
+
+;
+
+@V 1 23 0
+FYLL_STEG_5	18	VAR_EXTERNAL	@TYP:1
+@RV 350		     
+
+;
+
+@V 1 24 0
+IF_2	19	VAR_EXTERNAL	@TYP:1
+@RV 62		     
+
+;
+
+@V 1 29 0
+OCO_1_TOF	20	VAR	@FB:37
+		     
+
+;
+
+@V 1 30 0
+R_TRIG_3	21	VAR	@FB:41
+		     
+
+;
+
+@V 1 35 0
+TIMER_A_OFO	22	VAR_EXTERNAL	@TYP:12
+@RV 2		     
+
+;
+
+@V 1 40 0
+OFO_1_TOF_COIL	23	VAR	@TYP:1
+		     
+
+;
+
+@V 1 45 0
+OBE_1	24	VAR_EXTERNAL	@TYP:1
+@RV 80		     
+
+;
+
+@V 1 46 0
+OCO_1_MAN	25	VAR_EXTERNAL	@TYP:1
+@RV 201		     
+
+;
+
+@V 1 47 0
+OBE_1_MAN	26	VAR_EXTERNAL	@TYP:1
+@RV 202		     
+
+;
+
+@V 1 48 0
+OBE_2	27	VAR_EXTERNAL	@TYP:1
+@RV 81		     
+
+;
+
+@V 1 49 0
+OBE_2_MAN	28	VAR_EXTERNAL	@TYP:1
+@RV 203		     
+
+;
+
+@V 1 50 0
+IB_1_1	29	VAR_EXTERNAL	@TYP:1
+@RV 65		     
+
+;
+
+@V 1 51 0
+IB_1_2	30	VAR_EXTERNAL	@TYP:1
+@RV 66		     
+
+;
+
+@V 1 52 0
+SUMMALARM	31	VAR_EXTERNAL	@TYP:1
+@RV 26		     
+
+;
+
+@V 1 57 0
+R_TRIG_2	32	VAR	@FB:41
+		     
+
+;
+
+@V 1 62 0
+IP_1	33	VAR_EXTERNAL	@TYP:1
+@RV 60		     
+
+;
+
+@V 1 63 0
+OBE_3_MAN	34	VAR_EXTERNAL	@TYP:1
+@RV 204		     
+
+;
+
+@V 1 64 0
+OBE_4_MAN	35	VAR_EXTERNAL	@TYP:1
+@RV 205		     
+
+;
+
+@V 1 65 0
+OBE_5_MAN	36	VAR_EXTERNAL	@TYP:1
+@RV 206		     
+
+;
+
+@V 1 66 0
+OBE_6_MAN	37	VAR_EXTERNAL	@TYP:1
+@RV 207		     
+
+;
+
+@V 1 67 0
+OBE_3	38	VAR_EXTERNAL	@TYP:1
+@RV 82		     
+
+;
+
+@V 1 68 0
+OBE_4	39	VAR_EXTERNAL	@TYP:1
+@RV 83		     
+
+;
+
+@V 1 69 0
+OBE_5	40	VAR_EXTERNAL	@TYP:1
+@RV 84		     
+
+;
+
+@V 1 70 0
+OBE_6	41	VAR_EXTERNAL	@TYP:1
+@RV 85		     
+
+;
+
+@V 1 71 0
+INM_STEG_3	42	VAR_EXTERNAL	@TYP:1
+@RV 322		     
+
+;
+
+@V 1 72 0
+ONP_1	43	VAR_EXTERNAL	@TYP:1
+@RV 78		     
+
+;
+
+@V 1 73 0
+ONP_1_MAN	44	VAR_EXTERNAL	@TYP:1
+@RV 208		     
+
+;
+
+@V 1 74 0
+START_AUTO	45	VAR_EXTERNAL	@TYP:1
+@RV 211		     
+
+;
+
+@V 1 75 0
+OCS_1	46	VAR_EXTERNAL	@TYP:1
+@RV 97		     
+
+;
+
+@V 1 76 0
+OCM_1	47	VAR_EXTERNAL	@TYP:1
+@RV 95		     
+
+;
+
+@V 1 77 0
+OCM_1_MAN	48	VAR_EXTERNAL	@TYP:1
+@RV 209		     
+
+;
+
+@V 1 78 0
+OCS_1_MAN	49	VAR_EXTERNAL	@TYP:1
+@RV 210		     
+
+;
+
+@V 1 79 0
+IB_1	50	VAR_EXTERNAL	@TYP:1
+@RV 64		     
+
+;
+
+@V 1 80 0
+C079	51	VAR_EXTERNAL	@TYP:1
+@RV 101		     
+
+;
+
+@V 1 81 0
+FYLL_STEG_6	52	VAR_EXTERNAL	@TYP:1
+@RV 351		     
+
+;
+
+@V 1 82 0
+FYLL_STEG_7	53	VAR_EXTERNAL	@TYP:1
+@RV 352		     
+
+;
+
+@V 1 83 0
+CO2_EXHAUST_MAN	54	VAR_EXTERNAL	@TYP:1
+@RV 219		     
+
+;
+
+@V 1 84 0
+A_AUTO	55	VAR_EXTERNAL	@TYP:1
+@RV 5		     
+
+;
+
+@V 1 85 0
+CO2_EXHAUST	56	VAR_EXTERNAL	@TYP:1
+@RV 99		     
+
+;
+
+@V 1 86 0
+COUNTER_PRESSURE_MAN	57	VAR_EXTERNAL	@TYP:1
+@RV 220		     
+
+;
+
+@V 1 87 0
+COUNTER_PRESSURE	58	VAR_EXTERNAL	@TYP:1
+@RV 100		     
+
+;
+
+@V 1 88 0
+OCF	59	VAR_EXTERNAL	@TYP:1
+@RV 102		     
+
+;
+
+@V 1 93 0
+CAP_FEEDING	60	VAR	@TYP:1
+		     
+
+;
+
+@V 1 98 0
+Kapsylmatning	61	VAR_EXTERNAL	@TYP:1
+@RV 397		     
+
+;
+
+@V 1 103 0
+TIME_CAP_FEEDING	62	VAR	@FB:37
+		     
+
+;
+
+@V 1 108 0
+TIMER_A_BOTTLE_FILLING	63	VAR_EXTERNAL	@TYP:12
+@RV 3		     
+
+;
+
+@V 1 109 0
+OGU	64	VAR_EXTERNAL	@TYP:1
+@RV 103		     
+
+;
+
+@V 1 110 0
+INM_STEG_4	65	VAR_EXTERNAL	@TYP:1
+@RV 323		     
+
+;
+
+@V 1 111 0
+KAP_STEG_2	66	VAR_EXTERNAL	@TYP:1
+@RV 375		     
+
+;
+
+@V 1 112 0
+DISK_STEG_2	67	VAR_EXTERNAL	@TYP:1
+@RV 30		     
+
+;
+
+@V 1 113 0
+DISK_STEG_3	68	VAR_EXTERNAL	@TYP:1
+@RV 31		     
+
+;
+
+@V 1 114 0
+DISK_STEG_4	69	VAR_EXTERNAL	@TYP:1
+@RV 32		     
+
+;
+
+@V 1 115 0
+DISK_STEG_5	70	VAR_EXTERNAL	@TYP:1
+@RV 33		     
+
+;
+
+@V 1 116 0
+DISK_STEG_6	71	VAR_EXTERNAL	@TYP:1
+@RV 34		     
+
+;
+
+@V 1 117 0
+DISK_STEG_7	72	VAR_EXTERNAL	@TYP:1
+@RV 35		     
+
+;
+
+@V 1 118 0
+DISK_STEG_STARTAT	73	VAR_EXTERNAL	@TYP:1
+@RV 29		     
+
+;
+
+@V 1 119 0
+NOLL	74	VAR_EXTERNAL	@TYP:1
+@RV 218		     
+
+;
+
+@V 1 120 0
+OBE_ALL_MAN	75	VAR_EXTERNAL	@TYP:1
+@RV 119		     
+
+;
+
+@V 1 121 0
+BOTTLE1_FULL	76	VAR_EXTERNAL	@TYP:1
+@RV 117		     
+
+;
+
+@V 1 122 0
+BOTTLE2_FULL	77	VAR_EXTERNAL	@TYP:1
+@RV 139		     
+
+;
+
+@V 1 123 0
+BOTTLE3_FULL	78	VAR_EXTERNAL	@TYP:1
+@RV 140		     
+
+;
+
+@V 1 124 0
+BOTTLE4_FULL	79	VAR_EXTERNAL	@TYP:1
+@RV 141		     
+
+;
+
+@V 1 125 0
+BOTTLE5_FULL	80	VAR_EXTERNAL	@TYP:1
+@RV 143		     
+
+;
+
+@V 1 126 0
+BOTTLE6_FULL	81	VAR_EXTERNAL	@TYP:1
+@RV 145		     
+
+;
+
+@V 1 127 0
+bOKtoFill	82	VAR_EXTERNAL	@TYP:1
+@RV 149		     
+
+;
+
+@V 1 128 0
+bCO2Valve	83	VAR_EXTERNAL	@TYP:1
+@RV 150		     
+
+;
+
+@V 1 129 0
+NeverHappen	84	VAR_EXTERNAL	@TYP:1
+@RV 153		     
+
+;
+
+@V 1 130 0
+FYLL_STEG_STARTAD	85	VAR_EXTERNAL	@TYP:1
+@RV 366		     
+
+;
+
+@V 1 131 0
+INP_1	86	VAR_EXTERNAL	@TYP:1
+@RV 98		     
+
+;
+
+@V 1 132 0
+IF_1	87	VAR_EXTERNAL	@TYP:1
+@RV 63		     
+
+;
+
+@V 1 137 0
+EvacDrain_TOF	88	VAR	@FB:37
+		     
+
+;
+
+@V 1 138 0
+TOF_1	89	VAR	@FB:37
+		     
+
+;
+
+@V 1 139 0
+TOF_2	90	VAR	@FB:37
+		     
+
+;
+
+@V 1 144 0
+EvacTOFOut	91	VAR_EXTERNAL	@TYP:1
+@RV 53		     
+
+;
+
+@V 1 149 0
+R_TRIG_1	92	VAR	@FB:41
+		     
+
+;
+
+@V 1 154 0
+bCycleIsDone	93	VAR_EXTERNAL	@TYP:1
+@RV 154		     
+
+;
+
+@V 1 159 0
+bCycleDoneTON	94	VAR	@FB:39
+		     
+
+;
+
+@V 1 164 0
+EvacDrain	95	VAR_EXTERNAL	@TYP:1
+@RV 54		     
+
+;
+
+@V 1 169 0
+bCycleDoneTOF	96	VAR	@FB:37
+		     
+
+;
+
+@V 1 170 0
+bCycleDoneRTRIG	97	VAR	@FB:41
+		     
+
+;
+
+@V 1 175 0
+EvacDrainTOF	98	VAR_EXTERNAL	@TYP:1
+@RV 55		     
+
+;
+
+@V 1 176 0
+tDrainTime	99	VAR_EXTERNAL	@TYP:12
+@RV 56		     
+
+;
+
+@V 1 177 0
+bBypassStep_2	100	VAR_EXTERNAL	@TYP:1
+@RV 38		     
+
+;
+
+@V 1 178 0
+bOKtoEjectBottles	101	VAR_EXTERNAL	@TYP:1
+@RV 173		     
+
+;
+
+@V 1 179 0
+CAP_DOWN	102	VAR_EXTERNAL	@TYP:1
+@RV 57		     
+
+;
+
+@V 1 180 0
+CAP_UP	103	VAR_EXTERNAL	@TYP:1
+@RV 180		     
+
+;
+
+@V 1 181 0
+CAP_TURNED_FULLY	104	VAR_EXTERNAL	@TYP:1
+@RV 181		     
+
+;
+
+@V 1 182 0
+CAP_PREPARED	105	VAR_EXTERNAL	@TYP:1
+@RV 182		     
+
+;
+
+@V 1 183 0
+KAP_STEG_4	106	VAR_EXTERNAL	@TYP:1
+@RV 377		     
+
+;
+
+@V 1 184 0
+KAP_STEG_6	107	VAR_EXTERNAL	@TYP:1
+@RV 379		     
+
+;
+
+@V 1 185 0
+CAP_FEED_MAN	108	VAR_EXTERNAL	@TYP:1
+@RV 184		     
+
+;
+
+@V 1 186 0
+DISK_STEG_8	109	VAR_EXTERNAL	@TYP:1
+@RV 40		     
+
+;
+
+@V 1 187 0
+DISK_STEG_9	110	VAR_EXTERNAL	@TYP:1
+@RV 41		     
+
+;
+
+@V 1 188 0
+TRACK_TILT_HOME	111	VAR_EXTERNAL	@TYP:1
+@RV 186		     
+
+;
+
+@V 1 189 0
+HMI_CAP_DOWN_MAN	112	VAR_EXTERNAL	@TYP:1
+@RV 187		     
+
+;
+
+@V 1 190 0
+HMI_CAP_UP_MAN	113	VAR_EXTERNAL	@TYP:1
+@RV 188		     
+
+;
+
+@V 1 191 0
+KAP_MOT_BWD	114	VAR_EXTERNAL	@TYP:1
+@RV 189		     
+
+;
+
+@V 1 192 0
+KAP_MOT_FWD	115	VAR_EXTERNAL	@TYP:1
+@RV 190		     
+
+;
+
+@V 1 197 0
+TIME_CAP_FWD	116	VAR	@FB:39
+		     
+
+;
+
+@V 1 198 0
+TIME_CAP_BWD	117	VAR	@FB:39
+		     
+
+;
+
+@V 1 203 0
+OCS_2	118	VAR_EXTERNAL	@TYP:1
+@RV 191		     
+
+;
+
+@V 1 204 0
+IC_1	119	VAR_EXTERNAL	@TYP:1
+@RV 61		     
+
+;
+
+@V 1 205 0
+KAP_STEG_5	120	VAR_EXTERNAL	@TYP:1
+@RV 378		     
+
+;
+
+@V 1 206 0
+tCAPBackwardTime	121	VAR_EXTERNAL	@TYP:12
+@RV 194		     
+
+;
+
+@V 1 207 0
+tCAPForwardTime	122	VAR_EXTERNAL	@TYP:12
+@RV 195		     
+
+;
+
+@V 1 212 0
+bCFGUseInfeedMotor	123	VAR	@TYP:1
+		     
+
+;
+
+@V 1 217 0
+bPreDrainOK	124	VAR_EXTERNAL	@TYP:1
+@RV 196		     
+
+;
+

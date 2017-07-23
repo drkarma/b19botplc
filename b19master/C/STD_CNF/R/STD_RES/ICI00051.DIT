@@ -1,0 +1,57 @@
+(*
+T: FUNCTION_BLOCK TON_R
+FW: YES	NO_VARIANT TON_R SKIP_NOTHING	
+CI#: 51
+QSL: 0
+QVE: 8
+QPar: 4
+QFBI: 0
+*)
+
+IN	1	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+PT	2	VAR_INPUT	@TYP:12	
+	
+
+;
+
+
+ET	3	VAR_OUTPUT RETAIN	@TYP:12	
+	
+
+;
+
+
+Q	4	VAR_OUTPUT RETAIN	@TYP:1	
+	
+
+;
+
+
+T0_TICKS	5	VAR	@TYP:4	
+	
+
+;
+
+
+ET_TICKS	6	VAR RETAIN	@TYP:4	
+	
+
+;
+
+
+INVOC	7	VAR	@TYP:17	
+	
+
+;
+
+
+LAST_IN	8	VAR RETAIN	@TYP:17	
+	
+
+;
+

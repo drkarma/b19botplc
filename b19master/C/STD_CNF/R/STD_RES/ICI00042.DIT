@@ -1,0 +1,196 @@
+(*
+T: PROGRAM DISK
+FW: NO
+CI#: 42
+QSL: 31
+QVE: 31
+QVPC: 31
+QPar: 0
+QFBI: 11
+*)
+@V 1 6 0
+DISK_STEG_STARTAT	1	VAR_EXTERNAL	@TYP:1
+@RV 29		     
+
+;
+
+@V 1 7 0
+DISK_STEG_1	2	VAR_EXTERNAL	@TYP:1
+@RV 28		     
+
+;
+
+@V 1 8 0
+OF_1_MAN	3	VAR_EXTERNAL	@TYP:1
+@RV 197		     
+
+;
+
+@V 1 9 0
+OCM_1_MAN	4	VAR_EXTERNAL	@TYP:1
+@RV 209		     
+
+;
+
+@V 1 10 0
+AUTO	5	VAR_EXTERNAL	@TYP:1
+@RV 215		     
+
+;
+
+@V 1 15 0
+DISK_STEG2_TON_1	6	VAR	@FB:39
+		     
+
+;
+
+@V 1 20 0
+DISK_STEG_2	7	VAR_EXTERNAL	@TYP:1
+@RV 30		     
+
+;
+
+@V 1 21 0
+DISK_STEG_3	8	VAR_EXTERNAL	@TYP:1
+@RV 31		     
+
+;
+
+@V 1 26 0
+DISK_BEER1_TON_1	9	VAR	@FB:39
+		     
+
+;
+
+@V 1 31 0
+DISK_STEG_4	10	VAR_EXTERNAL	@TYP:1
+@RV 32		     
+
+;
+
+@V 1 36 0
+DISK_BEER2_TON_1	11	VAR	@FB:39
+		     
+
+;
+
+@V 1 41 0
+DISK_STEG_5	12	VAR_EXTERNAL	@TYP:1
+@RV 33		     
+
+;
+
+@V 1 46 0
+DISK_BEER3_TON_1	13	VAR	@FB:39
+		     
+
+;
+
+@V 1 51 0
+DISK_STEG_6	14	VAR_EXTERNAL	@TYP:1
+@RV 34		     
+
+;
+
+@V 1 56 0
+DISK_BEER4_TON_1	15	VAR	@FB:39
+		     
+
+;
+
+@V 1 61 0
+DISK_STEG_7	16	VAR_EXTERNAL	@TYP:1
+@RV 35		     
+
+;
+
+@V 1 66 0
+DISK_BEER5_TON_1	17	VAR	@FB:39
+		     
+
+;
+
+@V 1 67 0
+DISK_BEER6_TON_1	18	VAR	@FB:39
+		     
+
+;
+
+@V 1 72 0
+ONP_1_MAN	19	VAR_EXTERNAL	@TYP:1
+@RV 208		     
+
+;
+
+@V 1 73 0
+DISK_START	20	VAR_EXTERNAL	@TYP:1
+@RV 36		     
+
+;
+
+@V 1 74 0
+HMI_PACKNINGSDISK_START	21	VAR_EXTERNAL	@TYP:1
+@RV 39		     
+
+;
+
+@V 1 75 0
+DISK_STEG_8	22	VAR_EXTERNAL	@TYP:1
+@RV 40		     
+
+;
+
+@V 1 76 0
+DISK_STEG_9	23	VAR_EXTERNAL	@TYP:1
+@RV 41		     
+
+;
+
+@V 1 77 0
+DISK_CYKL_PACK_DONE	24	VAR_EXTERNAL	@TYP:1
+@RV 42		     
+
+;
+
+@V 1 82 0
+BEER_VENT_OPEN	25	VAR	@FB:39
+		     
+
+;
+
+@V 1 83 0
+LIFT_FILLING	26	VAR	@FB:39
+		     
+
+;
+
+@V 1 88 0
+HMI_TIME_FILL_UP	27	VAR_EXTERNAL	@TYP:12
+@RV 43		     
+
+;
+
+@V 1 93 0
+CYKLER_DISK_PACKN	28	VAR	@FB:43
+		     
+
+;
+
+@V 1 94 0
+RESET_CYKL_P	29	VAR	@FB:39
+		     
+
+;
+
+@V 1 99 0
+STOP_DISK_PACKN	30	VAR_EXTERNAL	@TYP:1
+@RV 44		     
+
+;
+
+@V 1 100 0
+CYKLER	31	VAR_EXTERNAL	@TYP:3
+@RV 45		     
+
+;
+

@@ -1,0 +1,382 @@
+(*
+T: PROGRAM INMATNING
+FW: NO
+CI#: 50
+QSL: 62
+QVE: 62
+QVPC: 62
+QPar: 0
+QFBI: 11
+*)
+@V 1 6 0
+INM_STEG_RESET	1	VAR_EXTERNAL	@TYP:1
+@RV 342		     
+
+;
+
+@V 1 7 0
+INM_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
+@RV 340		     
+
+;
+
+@V 1 8 0
+INM_STEG_1	3	VAR_EXTERNAL	@TYP:1
+@RV 320		     
+
+;
+
+@V 1 9 0
+INM_STEG_2	4	VAR_EXTERNAL	@TYP:1
+@RV 321		     
+
+;
+
+@V 1 10 0
+INM_STEG_3	5	VAR_EXTERNAL	@TYP:1
+@RV 322		     
+
+;
+
+@V 1 11 0
+INM_STEG_4	6	VAR_EXTERNAL	@TYP:1
+@RV 323		     
+
+;
+
+@V 1 12 0
+INM_STEG_5	7	VAR_EXTERNAL	@TYP:1
+@RV 324		     
+
+;
+
+@V 1 13 0
+INM_STEG_6	8	VAR_EXTERNAL	@TYP:1
+@RV 325		     
+
+;
+
+@V 1 14 0
+INM_STEG_7	9	VAR_EXTERNAL	@TYP:1
+@RV 326		     
+
+;
+
+@V 1 15 0
+INM_STEG_8	10	VAR_EXTERNAL	@TYP:1
+@RV 327		     
+
+;
+
+@V 1 16 0
+INM_STEG_9	11	VAR_EXTERNAL	@TYP:1
+@RV 328		     
+
+;
+
+@V 1 17 0
+INM_STEG_10	12	VAR_EXTERNAL	@TYP:1
+@RV 329		     
+
+;
+
+@V 1 18 0
+INM_STEG_NR	13	VAR_EXTERNAL	@TYP:3
+@RV 341		     
+
+;
+
+@V 1 19 0
+UTM_STEG_STARTAD	14	VAR_EXTERNAL	@TYP:1
+@RV 422		     
+
+;
+
+@V 1 20 0
+FYLL_STEG_STARTAD	15	VAR_EXTERNAL	@TYP:1
+@RV 366		     
+
+;
+
+@V 1 25 0
+STEG1_TON	16	VAR	@FB:39
+		     
+
+;
+
+@V 1 30 0
+INM_STEG_1_TIME	17	VAR_EXTERNAL	@TYP:12
+@RV 330		     
+
+;
+
+@V 1 35 0
+STEG2_TON	18	VAR	@FB:39
+		     
+
+;
+
+@V 1 40 0
+INM_STEG_2_TIME	19	VAR_EXTERNAL	@TYP:12
+@RV 331		     
+
+;
+
+@V 1 41 0
+IB_1	20	VAR_EXTERNAL	@TYP:1
+@RV 64		     
+
+;
+
+@V 1 42 0
+IT_1	21	VAR_EXTERNAL	@TYP:1
+@RV 73		     
+
+;
+
+@V 1 43 0
+KAP_STEG_STARTAD	22	VAR_EXTERNAL	@TYP:1
+@RV 394		     
+
+;
+
+@V 1 44 0
+START_AUTO	23	VAR_EXTERNAL	@TYP:1
+@RV 211		     
+
+;
+
+@V 1 45 0
+SUMMALARM	24	VAR_EXTERNAL	@TYP:1
+@RV 26		     
+
+;
+
+@V 1 46 0
+IP_1	25	VAR_EXTERNAL	@TYP:1
+@RV 60		     
+
+;
+
+@V 1 51 0
+R_TRIG_1	26	VAR	@FB:41
+		     
+
+;
+
+@V 1 56 0
+ICM_2	27	VAR_EXTERNAL	@TYP:1
+@RV 94		     
+
+;
+
+@V 1 57 0
+INM_ICM_2_CONT	28	VAR_EXTERNAL	@TYP:3
+@RV 343		     
+
+;
+
+@V 1 58 0
+INM_ICM_2_CONT_DONE	29	VAR_EXTERNAL	@TYP:1
+@RV 344		     
+
+;
+
+@V 1 59 0
+ICM_1	30	VAR_EXTERNAL	@TYP:1
+@RV 93		     
+
+;
+
+@V 1 60 0
+INM_STEG_3_TIME	31	VAR_EXTERNAL	@TYP:12
+@RV 332		     
+
+;
+
+@V 1 65 0
+STEG3_TON	32	VAR	@FB:39
+		     
+
+;
+
+@V 1 70 0
+OP_1	33	VAR_EXTERNAL	@TYP:1
+@RV 77		     
+
+;
+
+@V 1 71 0
+INM_STEG_4_TIME	34	VAR_EXTERNAL	@TYP:12
+@RV 333		     
+
+;
+
+@V 1 76 0
+STEG4_TON	35	VAR	@FB:39
+		     
+
+;
+
+@V 1 81 0
+INP_1	36	VAR_EXTERNAL	@TYP:1
+@RV 98		     
+
+;
+
+@V 1 86 0
+C031	37	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 1 91 0
+C033	38	VAR_EXTERNAL	@TYP:1
+@RV 345		     
+
+;
+
+@V 1 96 0
+TEMP_BOOL	39	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 1 97 0
+F_TRIG_1	40	VAR	@FB:40
+		     
+
+;
+
+@V 1 102 0
+OCM_1	41	VAR_EXTERNAL	@TYP:1
+@RV 95		     
+
+;
+
+@V 1 103 0
+ONP_1	42	VAR_EXTERNAL	@TYP:1
+@RV 78		     
+
+;
+
+@V 1 104 0
+NOLL	43	VAR_EXTERNAL	@TYP:1
+@RV 218		     
+
+;
+
+@V 1 105 0
+AUTO	44	VAR_EXTERNAL	@TYP:1
+@RV 215		     
+
+;
+
+@V 1 110 0
+FLASKOR_ANTAL	45	VAR	@FB:43
+		     
+
+;
+
+@V 1 115 0
+ANTAL_FLASKOR	46	VAR_EXTERNAL	@TYP:3
+@RV 178		     
+
+;
+
+@V 1 120 0
+RESET_FLASKOR	47	VAR	@FB:39
+		     
+
+;
+
+@V 1 121 0
+FILT_ICM_2	48	VAR	@FB:39
+		     
+
+;
+
+@V 1 126 0
+ICM_2_FILT	49	VAR_EXTERNAL	@TYP:1
+@RV 179		     
+
+;
+
+@V 1 131 0
+Sequence_Timer	50	VAR	@FB:51
+		     
+
+;
+
+@V 1 136 0
+tSeqTimerTime	51	VAR_EXTERNAL	@TYP:12
+@RV 192		     
+
+;
+
+@V 1 141 0
+tHoldingTimeINMPusher	52	VAR	@FB:39
+		     
+
+;
+
+@V 1 146 0
+iDUMMY	53	VAR_EXTERNAL	@TYP:3
+@RV 193		     
+
+;
+
+
+INMATNING@@24	54	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@132	55	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 133 0
+INMATNING@@133	56	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@147	57	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 148 0
+INMATNING@@148	58	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@183	59	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@345	60	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@239	61	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+INMATNING@@105	62	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

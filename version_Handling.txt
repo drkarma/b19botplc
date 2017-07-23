@@ -1,0 +1,90 @@
+2016-07-02_pre
+This is a baseline build prior to removal of some unnecessary code that never will be executed
+
+2016-07-02_p1
+Removed all rungs that have a "NeverHappen" in it.
+
+2016-08-23
+Update after yesterdays run where a buggfix bCORR001MK was inserted into "KAPSYLERING" to avoid fast turn of capping head on first occation (i.e. after fresh start of machine or after an interruption where you need to press START_AUTO again).
+Code passages can be removed in RUNG 003 (KAP_STEG_1 -> KAP_STEG_2) as the CAP_IS_PREPARED (True/False) isn't needed anymore.
+
+2016-09-13-P1
+Zipped the project and uploaded to FTP server, no additional changes compared to the 2016-08-23 upload.
+Reason for new upload is that Carlberg has done some rebuilding of machine and need to code updates. 
+
+2016-09-13-P2
+Carlberg: write down what changes you have done.
+zip project but don't rename it.
+Upload to folder
+-Disk sequence: Added "packningsdisk" row 009 and below.
+-HMI added packningsdisk start, stopp, time
+-Styrning row 003, 004: Added TRACK_TILT_HOME
+-HMI_MAN Capping cyl UP/DOWN HMI added buttons
+-Styrning row 018 -021, Cap motor fwd/bwd
+-Syrning row 007, noll added for OCM_1 not used
+-Styrning row 024, change to KAP_STEG_5, IC_1 added
+-Kapsylering row 007 Timer WAIT_FOR_CAP controlled from HMI for new cap feed and trim.
+
+2016-10-09 Magnus updates
+*Writing comments in "STYRNINGAR" to make it easier to find passages in the code
+
+2016-10-16_P1_working
+Efter ett fel så fick jag återställa till 09-13-P2
+
+2016-10-16_P2_fast_down
+Nu går fyllarrören ner snabbt efter inmatningen
+
+2016-10-16_P3_CAPPING_POS
+Lagt in capping pos som signal då denna saknades i maskinen. Svårt att förstå vilken terminal som Carlberg menade
+Trial and Error.
+
+2016-10-16_P4_Replaced_KAP_STEG_2_TIME_WITH_CAPPING_POS
+In KAPSYLERING RUNG 003 CAPPING_POS as contact has replaced all timers
+
+2016-10-16_P5_Event_based_short_timer_bottle_infeed
+RUNG 009 i INMATNING.
+Har ersatt en timer med eventbaserat (AND) + kort timer (Gör reuse på INM_STEG_4_TIMER)
+
+
+2016-10-16_P6_time_for_capmotor_direction
+Replaced set values for how long to turn capping motor in either direction to variables instead
+tCAPForwardTime
+tCAPBackwardTime
+
+2016-10-23_P1_improvement listings
+Updating code with improvements that can be done or should be checked.
+Search for TODO
+UTMATNING RUNG 002 - check TODO comment and also clean up other comments to make it consistant
+UTMATNING RUNG 003 - Check TODO - timer necessity
+FIXED****FYLLING RUNG 003 - Check TODO - remove signals check why we need the timer. This will have an e2e time impact
+FIXED**** MAIN RUNG 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, 022, 023 - Old unused, remove
+
+2016-10-26_P1_cleanup_in_MAIN
+I have removed passages in code that is not used anymore. This will make the code more readable.
+There are however loads of unused variables that should be removed to get fewer warinings
+
+2016-10-26_P2_Changes_in_fylling
+Removed "IF_2" and "IF_2 inverse" after "SUMMA_LARM inverse" as it didn't fill any function for the machine
+
+2016-10-26_P3_Changes_in_fylling
+Removed Timer and "FYLL_STEG_2_TIME" that it was waiting for
+Removed "FYLL_STEG_4" signal from RUNG004 (CONTACT) and also removed "FYLL_STEG_4" (COIL)
+Removed an unused timer "STEG_5_TON" and its "FYLL_STEG_5_TIME" value
+
+2016-10-26_P4_Changes_in_utmatning_and_larm
+Removed comment "Added bWeHaveCounterPressure december 2" as it was not valid
+Removed "FYLL_STEG_4" after "SUMMA_LARM" as "FYLL_STEG_4" is not used anymore
+Removed "FYLL_STEG_3" after "SUMMA_LARM" as "FYLL_STEG_3" Should not use it here anyway.
+In "LARM_HANTERING" a sysconf_parameter is added "bAlarmUseFillLevelAlarm" default set to FALSE. This disables the Fill level not reached alarm
+IN UTMATNING RUNG 003 the timer STEG2_TON don't have any vital function, it is set to 20 ms so neglectable. I opted to keep it in code as it does not have e2e timing impact
+STYRNINGAR RUNG 008 removed "INM_STEG_3" in series with "NOLL" the sequence was in paralell with the rest of the steps in beginning of rung
+STYRNINGAR RUNG 007 converted the "NOLL" to a sysconf_parameter bCFGUseInfeedMotor
+
+2016-12-20_Pre
+Just a backup before any changes are done during bottling of Trossöl
+
+2017-02-01_PostBottling
+I have added a stage called 86 where the "No Foam limit" is reached it will open the regulator and also the Drain.
+
+2017-07-04_BeforeCodeChanges_bottling
+Doing a baseline upload without any changes as I want to adjust the timing of CO2 "venting" so it starts after passing bottle opening.

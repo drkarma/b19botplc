@@ -1,0 +1,172 @@
+(*
+T: FUNCTION_BLOCK FPID
+FW: YES	NO_VARIANT FPID SKIP_NOTHING	
+CI#: 55
+QSL: 0
+QVE: 27
+QPar: 16
+QFBI: 0
+*)
+
+REMOTE	1	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+AUTO	2	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+DIRECTN	3	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+INTLCK	4	VAR_INPUT	@TYP:1	
+	
+
+;
+
+
+Yman	5	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+Tscan	6	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+SPR	7	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+SPL	8	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+X	9	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+KP	10	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+TI	11	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+TD	12	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+HIGH	13	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+LOW	14	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+Yout	15	VAR_OUTPUT	@TYP:10	
+	
+
+;
+
+
+INTLCKV	16	VAR_INPUT	@TYP:10	
+	
+
+;
+
+
+XD	17	VAR	@TYP:10	
+	
+
+;
+
+
+XD1	18	VAR	@TYP:10	
+	
+
+;
+
+
+XD2	19	VAR	@TYP:10	
+	
+
+;
+
+
+D0	20	VAR	@TYP:10	
+	
+
+;
+
+
+D1	21	VAR	@TYP:10	
+	
+
+;
+
+
+D2	22	VAR	@TYP:10	
+	
+
+;
+
+
+O_Yout	23	VAR	@TYP:10	
+	
+
+;
+
+
+B1	24	VAR	@TYP:17	
+	
+
+;
+
+
+B2	25	VAR	@TYP:17	
+	
+
+;
+
+
+B3	26	VAR	@TYP:17	
+	
+
+;
+
+
+B4	27	VAR	@TYP:17	
+	
+
+;
+
+

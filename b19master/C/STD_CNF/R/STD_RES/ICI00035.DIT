@@ -1,0 +1,196 @@
+(*
+T: PROGRAM FillingBypass
+FW: NO
+CI#: 35
+QSL: 31
+QVE: 31
+QVPC: 31
+QPar: 0
+QFBI: 8
+*)
+@V 1 6 0
+bFillingBypassReset	1	VAR	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+bBypassStep_1	2	VAR_EXTERNAL	@TYP:1
+@RV 37		     
+
+;
+
+@V 1 12 0
+bBypassStep_2	3	VAR_EXTERNAL	@TYP:1
+@RV 38		     
+
+;
+
+@V 1 13 0
+AUTO	4	VAR_EXTERNAL	@TYP:1
+@RV 215		     
+
+;
+
+@V 1 14 0
+KAP_STEG_STARTAD	5	VAR_EXTERNAL	@TYP:1
+@RV 394		     
+
+;
+
+@V 1 15 0
+DISK_STEG_STARTAT	6	VAR_EXTERNAL	@TYP:1
+@RV 29		     
+
+;
+
+@V 1 16 0
+ICM_1	7	VAR_EXTERNAL	@TYP:1
+@RV 93		     
+
+;
+
+@V 1 17 0
+ICM_2	8	VAR_EXTERNAL	@TYP:1
+@RV 94		     
+
+;
+
+@V 1 18 0
+bDoFillingByPass	9	VAR_EXTERNAL	@TYP:1
+@RV 170		     
+
+;
+
+@V 1 19 0
+bFillingBypass_Started	10	VAR_EXTERNAL	@TYP:1
+@RV 171		     
+
+;
+
+@V 1 20 0
+IP_1	11	VAR_EXTERNAL	@TYP:1
+@RV 60		     
+
+;
+
+@V 1 21 0
+bBYpassStep_3	12	VAR_EXTERNAL	@TYP:1
+@RV 172		     
+
+;
+
+@V 1 22 0
+INP_1	13	VAR_EXTERNAL	@TYP:1
+@RV 98		     
+
+;
+
+@V 1 23 0
+INC_2	14	VAR_EXTERNAL	@TYP:1
+@RV 88		     
+
+;
+
+@V 1 24 0
+IB_1	15	VAR_EXTERNAL	@TYP:1
+@RV 64		     
+
+;
+
+@V 1 25 0
+bOKtoEjectBottles	16	VAR_EXTERNAL	@TYP:1
+@RV 173		     
+
+;
+
+@V 1 26 0
+IP_2	17	VAR_EXTERNAL	@TYP:1
+@RV 59		     
+
+;
+
+@V 1 31 0
+ton_Delay_Push	18	VAR	@FB:39
+		     
+
+;
+
+@V 1 32 0
+InfeedCylinderPushTimer	19	VAR	@FB:39
+		     
+
+;
+
+@V 1 37 0
+tInfeedCylinderWait	20	VAR_EXTERNAL	@TYP:12
+@RV 174		     
+
+;
+
+@V 1 38 0
+tInfeedBottleCollectionTimer	21	VAR_EXTERNAL	@TYP:12
+@RV 175		     
+
+;
+
+@V 1 43 0
+countBottles	22	VAR	@FB:38
+		     
+
+;
+
+@V 1 48 0
+iAmountOfBottlesForThisMachine	23	VAR_EXTERNAL	@TYP:3
+@RV 176		     
+
+;
+
+@V 1 49 0
+iCountedBottlesFillingBypass	24	VAR_EXTERNAL	@TYP:3
+@RV 177		     
+
+;
+
+@V 1 54 0
+timerOffResetCounter	25	VAR	@FB:37
+		     
+
+;
+
+@V 1 55 0
+tWaitingForLastBottlePulse	26	VAR	@FB:36
+		     
+
+;
+
+@V 1 56 0
+fbFTRIG_last_bottle	27	VAR	@FB:40
+		     
+
+;
+
+@V 1 57 0
+fbRTRIGbottleCount	28	VAR	@FB:41
+		     
+
+;
+
+@V 1 58 0
+FalsePositivePulse	29	VAR	@FB:36
+		     
+
+;
+
+
+FillingBypass@@90	30	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 92 0
+FillingBypass@@92	31	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

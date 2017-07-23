@@ -1,0 +1,76 @@
+(*
+T: FUNCTION_BLOCK TON_R
+FW: YES
+CI#: 51
+QSL: 0
+QJM: 6
+QJ: 9
+*)
+		LD	@IV 7
+		EQ	@TYP:17# 00#01	
+		JMPC	@LBL 1
+		LD	@TYP:17# 00#01
+		ST	@IV 7
+		LD	%MD 1.52
+		DWORD_TO_DINT	
+		SUB	@IV 6
+		ST	@IV 5
+	@LBL 1		
+		LD	@IV 1
+		BOOL_TO_BYTE	
+		ANDN	@IV 8
+		EQ	@TYP:17# 00#01	
+		JMPC	@LBL 2
+		LD	@IV 1
+		JMPC	@LBL 3
+		LD	TIME# 0S0
+		ST	@IV 3
+		LD	BOOL# 1
+		R	@IV 4
+		JMP	@LBL 6
+	@LBL 2		
+		LD	%MD 1.52
+		DWORD_TO_DINT	
+		ST	@IV 5
+		LD	TIME# 0S0
+		ST	@IV 3
+		LD	BOOL# 1
+		R	@IV 4
+		JMP	@LBL 6
+	@LBL 3		
+		LD	@IV 4
+		JMPC	@LBL 6
+		LD	%MD 1.52
+		DWORD_TO_DINT	
+		SUB	@IV 5
+		ST	@IV 6
+		GT	@TYP:4# 00#001E8480
+		JMPCN	@LBL 4
+		LD	@IV 6
+		DIV(	%MW 1.44
+		WORD_TO_DINT
+		)
+		MUL	@TYP:4# 00#03E8
+		INT_TO_TIME	
+		ST	@IV 3
+		JMP	@LBL 5
+	@LBL 4		
+		LD	@IV 6
+		MUL	@TYP:4# 00#03E8
+		DIV(	%MW 1.44
+		WORD_TO_DINT
+		)
+		INT_TO_TIME	
+		ST	@IV 3
+	@LBL 5		
+		LD	@IV 3
+		GE	@IV 2
+		JMPCN	@LBL 6
+		LD	@IV 2
+		ST	@IV 3
+		LD	BOOL# 1
+		S	@IV 4
+	@LBL 6		
+		LD	@IV 1
+		BOOL_TO_BYTE	
+		ST	@IV 8

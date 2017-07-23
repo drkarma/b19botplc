@@ -1,0 +1,11 @@
+STEG1_TON	TON
+STEG2_TON	TON
+DEBUG_TON_KAPTIMING	TON
+WAIT_FOR_CAP	TON
+TURN_BACK	TON
+FIRST_CYCLE_TON	TON
+CappedTurnedFullyPulse	TP
+TP_Trigg_first_time	TP
+CTUD_First_time_long_cap_turn	CTUD
+TP_Non_persist_CapTime1	TP
+TP_Non_persist_CapTime2	TP

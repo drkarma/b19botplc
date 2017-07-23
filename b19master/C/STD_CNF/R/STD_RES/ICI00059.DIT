@@ -1,0 +1,370 @@
+(*
+T: FUNCTION_BLOCK FB_MK_CPRESS
+FW: NO
+CI#: 59
+QSL: 60
+QVE: 60
+QVPC: 60
+QPar: 38
+QFBI: 4
+*)
+@V 1 6 0
+bDiskOngoing	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+bActivateNewCycle	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+bUseAutomode	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 9 0
+bInAllBottlesFull	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 10 0
+bInVentingOK	5	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+dInputPulseNow	6	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 12 0
+dMaxPulses	7	VAR_INPUT	@TYP:4
+		     
+@TYP:4# 00#00000001
+;
+
+@V 1 13 0
+rCPressFastFillDiff	8	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 14 0
+rCPressExit	9	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 15 0
+rInputBeerPressNow	10	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 16 0
+rInputCPressNow	11	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 17 0
+rRegulationVent	12	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 18 0
+rStartFillDiff	13	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 19 0
+rVentingValue	14	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 20 0
+rInVenting1From	15	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 21 0
+rInVenting1To	16	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 22 0
+rInVenting2To	17	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 23 0
+rInVenting3To	18	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 24 0
+rNoFoamThreshold	19	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 25 0
+iVentMode	20	VAR_INPUT	@TYP:3
+		     
+
+;
+
+@V 1 26 0
+tInVentingTime1	21	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 27 0
+tInVentingTime2	22	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 28 0
+tInVentingTime3	23	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 29 0
+tTimeToEvacHoses	24	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 37 0
+bStartCycle	25	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 1 38 0
+bTimeDone	26	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 1 39 0
+rCPressMax	27	VAR	@TYP:10
+		     
+
+;
+
+@V 1 40 0
+rCPressFillingMin	28	VAR	@TYP:10
+		     
+
+;
+
+@V 1 41 0
+rFillingPercentage	29	VAR	@TYP:10
+		     
+
+;
+
+@V 1 42 0
+rFastFillCPIncrements	30	VAR	@TYP:10
+		     
+
+;
+
+@V 1 43 0
+rFastFillCPNowValue	31	VAR	@TYP:10
+		     
+
+;
+
+@V 1 44 0
+iFastFillNoOfIncrements	32	VAR	@TYP:3
+		     
+
+;
+
+@V 1 45 0
+rCPRegulationValue	33	VAR	@TYP:10
+		     
+
+;
+PFW: RDT
+@V 1 46 0
+iCurrentState	34	VAR	@TYP:3
+		     
+
+;
+
+@V 1 47 0
+tWaitForAllBottles	35	VAR	@TYP:12
+		     
+
+;
+PFW: RDT
+@V 1 48 0
+tStopPurgeTime	36	VAR	@TYP:12
+		     
+
+;
+PFW: RDT
+@V 1 49 0
+tStopCycleTIme	37	VAR	@TYP:12
+		     
+
+;
+PFW: RDT
+@V 1 50 0
+fbCycleTime	38	VAR	@FB:39
+		     
+
+;
+
+@V 1 51 0
+tStep1	39	VAR	@FB:39
+		     
+
+;
+
+@V 1 52 0
+tStep2	40	VAR	@FB:39
+		     
+
+;
+
+@V 1 53 0
+tStep3	41	VAR	@FB:39
+		     
+
+;
+
+@V 1 54 0
+rTheElapsed	42	VAR	@TYP:10
+		     
+
+;
+PFW: RDT
+@V 1 55 0
+rTheVenting	43	VAR	@TYP:10
+		     
+
+;
+PFW: RDT
+@V 1 56 0
+rTheDivision	44	VAR	@TYP:10
+		     
+
+;
+PFW: RDT
+@V 1 57 0
+rCPEnterVent	45	VAR	@TYP:10
+		     
+
+;
+PFW: RDT
+@V 1 65 0
+bOutAllBottlesDone	46	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 66 0
+bOutBaseLineBottleDone	47	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 67 0
+bOutCPReached	48	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 68 0
+bOutCycleDone	49	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 69 0
+bOutCO2Valve	50	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 70 0
+bOutOKtoFill	51	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 71 0
+rOutCPressVal	52	VAR_OUTPUT	@TYP:10
+		     
+
+;
+
+@V 1 72 0
+rOutFastFillCPValue	53	VAR_OUTPUT	@TYP:10
+		     
+
+;
+
+@V 1 73 0
+rOutFillLevel	54	VAR_OUTPUT	@TYP:10
+		     
+
+;
+
+@V 1 74 0
+rOutShowCPMAX	55	VAR_OUTPUT	@TYP:10
+		     
+
+;
+
+@V 1 75 0
+sOutImportant	56	VAR_OUTPUT	@STR:0
+		     
+
+;
+
+@V 1 76 0
+tElapsedTime	57	VAR_OUTPUT	@TYP:12
+		     
+
+;
+
+@V 1 77 0
+bOutDrainOK	58	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 78 0
+tLastCycleTime	59	VAR_OUTPUT	@TYP:12
+		     
+
+;
+
+@V 2 53 0
+@T_FB_MK_CPRESS_00	60	VAR	@TYP:3
+		     
+
+;
+PFW: RDT

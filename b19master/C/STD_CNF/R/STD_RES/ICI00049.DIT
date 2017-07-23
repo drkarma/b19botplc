@@ -1,0 +1,496 @@
+(*
+T: PROGRAM FYLLING
+FW: NO
+CI#: 49
+QSL: 81
+QVE: 81
+QVPC: 81
+QPar: 0
+QFBI: 16
+*)
+@V 1 6 0
+IB_1	1	VAR_EXTERNAL	@TYP:1
+@RV 64		     
+
+;
+
+@V 1 7 0
+INM_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
+@RV 340		     
+
+;
+
+@V 1 8 0
+IF_2	3	VAR_EXTERNAL	@TYP:1
+@RV 62		     
+
+;
+
+@V 1 9 0
+FYLL_STEG_2	4	VAR_EXTERNAL	@TYP:1
+@RV 347		     
+
+;
+
+@V 1 10 0
+IT_1	5	VAR_EXTERNAL	@TYP:1
+@RV 73		     
+
+;
+
+@V 1 11 0
+FYLL_STEG_3_TIME	6	VAR_EXTERNAL	@TYP:12
+@RV 358		     
+
+;
+
+@V 1 16 0
+STEG3_TON	7	VAR	@FB:39
+		     
+
+;
+
+@V 1 21 0
+FYLL_STEG_3	8	VAR_EXTERNAL	@TYP:1
+@RV 348		     
+
+;
+
+@V 1 22 0
+OCO_1	9	VAR_EXTERNAL	@TYP:1
+@RV 79		     
+
+;
+
+@V 1 27 0
+STEG4_TON	10	VAR	@FB:39
+		     
+
+;
+
+@V 1 32 0
+FYLL_STEG_4	11	VAR_EXTERNAL	@TYP:1
+@RV 349		     
+
+;
+
+@V 1 33 0
+FYLL_STEG_4_TIME	12	VAR_EXTERNAL	@TYP:12
+@RV 359		     
+
+;
+
+@V 1 34 0
+IB_1_1	13	VAR_EXTERNAL	@TYP:1
+@RV 65		     
+
+;
+
+@V 1 35 0
+IB_1_2	14	VAR_EXTERNAL	@TYP:1
+@RV 66		     
+
+;
+
+@V 1 36 0
+FYLL_STEG_5_TIME	15	VAR_EXTERNAL	@TYP:12
+@RV 360		     
+
+;
+
+@V 1 41 0
+STEG5_TON	16	VAR	@FB:39
+		     
+
+;
+
+@V 1 46 0
+FYLL_STEG_5	17	VAR_EXTERNAL	@TYP:1
+@RV 350		     
+
+;
+
+@V 1 47 0
+IF_1	18	VAR_EXTERNAL	@TYP:1
+@RV 63		     
+
+;
+
+@V 1 48 0
+FYLL_STEG_6_TIME	19	VAR_EXTERNAL	@TYP:12
+@RV 361		     
+
+;
+
+@V 1 53 0
+STEG6_TON	20	VAR	@FB:39
+		     
+
+;
+
+@V 1 58 0
+FYLL_STEG_6	21	VAR_EXTERNAL	@TYP:1
+@RV 351		     
+
+;
+
+@V 1 59 0
+FYLL_STEG_RESET	22	VAR_EXTERNAL	@TYP:1
+@RV 368		     
+
+;
+
+@V 1 60 0
+KAP_STEG_STARTAD	23	VAR_EXTERNAL	@TYP:1
+@RV 394		     
+
+;
+
+@V 1 61 0
+START_AUTO	24	VAR_EXTERNAL	@TYP:1
+@RV 211		     
+
+;
+
+@V 1 62 0
+FYLL_STEG_STARTAD	25	VAR_EXTERNAL	@TYP:1
+@RV 366		     
+
+;
+
+@V 1 63 0
+FYLL_STEG_1	26	VAR_EXTERNAL	@TYP:1
+@RV 346		     
+
+;
+
+@V 1 64 0
+FYLL_STEG_7	27	VAR_EXTERNAL	@TYP:1
+@RV 352		     
+
+;
+
+@V 1 65 0
+FYLL_STEG_8	28	VAR_EXTERNAL	@TYP:1
+@RV 353		     
+
+;
+
+@V 1 66 0
+FYLL_STEG_9	29	VAR_EXTERNAL	@TYP:1
+@RV 354		     
+
+;
+
+@V 1 67 0
+FYLL_STEG_10	30	VAR_EXTERNAL	@TYP:1
+@RV 355		     
+
+;
+
+@V 1 68 0
+FYLL_STEG_NR	31	VAR_EXTERNAL	@TYP:3
+@RV 367		     
+
+;
+
+@V 1 69 0
+SUMMALARM	32	VAR_EXTERNAL	@TYP:1
+@RV 26		     
+
+;
+
+@V 1 74 0
+STEG1_TON	33	VAR	@FB:39
+		     
+
+;
+
+@V 1 79 0
+FYLL_STEG_1_TIME	34	VAR_EXTERNAL	@TYP:12
+@RV 356		     
+
+;
+
+@V 1 84 0
+STEG2_TON	35	VAR	@FB:39
+		     
+
+;
+
+@V 1 89 0
+FYLL_STEG_2_TIME	36	VAR_EXTERNAL	@TYP:12
+@RV 357		     
+
+;
+
+@V 1 90 0
+UTM_STEG_STARTAD	37	VAR_EXTERNAL	@TYP:1
+@RV 422		     
+
+;
+
+@V 1 91 0
+UTM_STEG_TILL	38	VAR_EXTERNAL	@TYP:1
+@RV 425		     
+
+;
+
+@V 1 96 0
+TON_1	39	VAR	@FB:39
+		     
+
+;
+
+@V 1 97 0
+TON_2	40	VAR	@FB:39
+		     
+
+;
+
+@V 1 98 0
+STEG7_TON_2	41	VAR	@FB:39
+		     
+
+;
+
+@V 1 103 0
+FYLL_STEG_7_TIME	42	VAR_EXTERNAL	@TYP:12
+@RV 362		     
+
+;
+
+@V 1 108 0
+STEG8_TON_3	43	VAR	@FB:39
+		     
+
+;
+
+@V 1 113 0
+FYLL_STEG_8_TIME	44	VAR_EXTERNAL	@TYP:12
+@RV 363		     
+
+;
+
+@V 1 114 0
+FULL_BOTTLE_1	45	VAR_EXTERNAL	@TYP:1
+@RV 105		     
+
+;
+
+@V 1 115 0
+FULL_BOTTLE_2	46	VAR_EXTERNAL	@TYP:1
+@RV 106		     
+
+;
+
+@V 1 116 0
+FULL_BOTTLE_3	47	VAR_EXTERNAL	@TYP:1
+@RV 107		     
+
+;
+
+@V 1 117 0
+FULL_BOTTLE_4	48	VAR_EXTERNAL	@TYP:1
+@RV 108		     
+
+;
+
+@V 1 118 0
+FULL_BOTTLE_5	49	VAR_EXTERNAL	@TYP:1
+@RV 109		     
+
+;
+
+@V 1 119 0
+FULL_BOTTLE_6	50	VAR_EXTERNAL	@TYP:1
+@RV 110		     
+
+;
+
+@V 1 120 0
+INM_STEG_2	51	VAR_EXTERNAL	@TYP:1
+@RV 321		     
+
+;
+
+@V 1 121 0
+TIMER_A_OFO	52	VAR_EXTERNAL	@TYP:12
+@RV 2		     
+
+;
+
+@V 1 122 0
+BOTTLE1_FULL	53	VAR_EXTERNAL	@TYP:1
+@RV 117		     
+
+;
+
+@V 1 123 0
+BOTTLE2_FULL	54	VAR_EXTERNAL	@TYP:1
+@RV 139		     
+
+;
+
+@V 1 124 0
+BOTTLE3_FULL	55	VAR_EXTERNAL	@TYP:1
+@RV 140		     
+
+;
+
+@V 1 125 0
+BOTTLE4_FULL	56	VAR_EXTERNAL	@TYP:1
+@RV 141		     
+
+;
+
+@V 1 126 0
+BOTTLE5_FULL	57	VAR_EXTERNAL	@TYP:1
+@RV 143		     
+
+;
+
+@V 1 127 0
+BOTTLE6_FULL	58	VAR_EXTERNAL	@TYP:1
+@RV 145		     
+
+;
+
+@V 1 128 0
+NeverHappen	59	VAR_EXTERNAL	@TYP:1
+@RV 153		     
+
+;
+
+@V 1 129 0
+bOKtoFill	60	VAR_EXTERNAL	@TYP:1
+@RV 149		     
+
+;
+
+@V 1 130 0
+bCycleIsDone	61	VAR_EXTERNAL	@TYP:1
+@RV 154		     
+
+;
+
+@V 1 131 0
+DemoMode	62	VAR_EXTERNAL	@TYP:1
+@RV 369		     
+
+;
+
+@V 1 132 0
+AUTO	63	VAR_EXTERNAL	@TYP:1
+@RV 215		     
+
+;
+
+@V 1 133 0
+iVentingMode	64	VAR_EXTERNAL	@TYP:3
+@RV 183		     
+
+;
+
+@V 1 134 0
+iSavedVentingMode	65	VAR_EXTERNAL	@TYP:3
+@RV 370		     
+
+;
+
+@V 1 139 0
+TP_Trigger	66	VAR	@FB:36
+		     
+
+;
+
+@V 1 140 0
+TP_Trigger_StartupSeq	67	VAR	@FB:36
+		     
+
+;
+
+@V 1 141 0
+CTUD_StartupSeq	68	VAR	@FB:43
+		     
+
+;
+
+@V 1 146 0
+iIterationsForStartupSequence	69	VAR_EXTERNAL	@TYP:3
+@RV 371		     
+
+;
+
+@V 1 147 0
+iStartupVentingMode	70	VAR_EXTERNAL	@TYP:3
+@RV 372		     
+
+;
+
+@V 1 152 0
+TP_NonPersistant	71	VAR	@FB:36
+		     
+
+;
+
+@V 1 153 0
+TP_NonPersistant2	72	VAR	@FB:36
+		     
+
+;
+
+@V 1 154 0
+TP_NonPersistant3	73	VAR	@FB:36
+		     
+
+;
+
+@V 1 159 0
+bToggler	74	VAR_EXTERNAL	@TYP:1
+@RV 373		     
+
+;
+
+@V 1 164 0
+DemoMode_StartSeq	75	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+
+@V 1 165 0
+iDefaultVentingMode	76	VAR	@TYP:3
+		     
+@TYP:3# 00#0055
+;
+PFW: PDD CSV RDT
+
+FYLLING@@33	77	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+FYLLING@@37	78	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+FYLLING@@41	79	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+FYLLING@@83	80	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+FYLLING@@145	81	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

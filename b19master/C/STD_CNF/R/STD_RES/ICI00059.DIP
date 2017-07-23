@@ -1,0 +1,48 @@
+(*
+T: FUNCTION_BLOCK FB_MK_CPRESS
+FW: NO
+CI#: 59
+QSL: 60
+QVE: 60
+QVPC: 60
+QPar: 38
+QFBI: 4
+*)
+bActivateNewCycle	@IV 2	@TYP:1	VAR_INPUT
+bDiskOngoing	@IV 1	@TYP:1	VAR_INPUT
+bInAllBottlesFull	@IV 4	@TYP:1	VAR_INPUT
+bInVentingOK	@IV 5	@TYP:1	VAR_INPUT
+bOutAllBottlesDone	@IV 46	@TYP:1	VAR_OUTPUT
+bOutBaseLineBottleDone	@IV 47	@TYP:1	VAR_OUTPUT
+bOutCO2Valve	@IV 50	@TYP:1	VAR_OUTPUT
+bOutCPReached	@IV 48	@TYP:1	VAR_OUTPUT
+bOutCycleDone	@IV 49	@TYP:1	VAR_OUTPUT
+bOutDrainOK	@IV 58	@TYP:1	VAR_OUTPUT
+bOutOKtoFill	@IV 51	@TYP:1	VAR_OUTPUT
+bUseAutomode	@IV 3	@TYP:1	VAR_INPUT
+dInputPulseNow	@IV 6	@TYP:4	VAR_INPUT
+dMaxPulses	@IV 7	@TYP:4	VAR_INPUT
+iVentMode	@IV 20	@TYP:3	VAR_INPUT
+rCPressExit	@IV 9	@TYP:10	VAR_INPUT
+rCPressFastFillDiff	@IV 8	@TYP:10	VAR_INPUT
+rInputBeerPressNow	@IV 10	@TYP:10	VAR_INPUT
+rInputCPressNow	@IV 11	@TYP:10	VAR_INPUT
+rInVenting1From	@IV 15	@TYP:10	VAR_INPUT
+rInVenting1To	@IV 16	@TYP:10	VAR_INPUT
+rInVenting2To	@IV 17	@TYP:10	VAR_INPUT
+rInVenting3To	@IV 18	@TYP:10	VAR_INPUT
+rNoFoamThreshold	@IV 19	@TYP:10	VAR_INPUT
+rOutCPressVal	@IV 52	@TYP:10	VAR_OUTPUT
+rOutFastFillCPValue	@IV 53	@TYP:10	VAR_OUTPUT
+rOutFillLevel	@IV 54	@TYP:10	VAR_OUTPUT
+rOutShowCPMAX	@IV 55	@TYP:10	VAR_OUTPUT
+rRegulationVent	@IV 12	@TYP:10	VAR_INPUT
+rStartFillDiff	@IV 13	@TYP:10	VAR_INPUT
+rVentingValue	@IV 14	@TYP:10	VAR_INPUT
+sOutImportant	@IV 56	@STR:0	VAR_OUTPUT
+tElapsedTime	@IV 57	@TYP:12	VAR_OUTPUT
+tInVentingTime1	@IV 21	@TYP:12	VAR_INPUT
+tInVentingTime2	@IV 22	@TYP:12	VAR_INPUT
+tInVentingTime3	@IV 23	@TYP:12	VAR_INPUT
+tLastCycleTime	@IV 59	@TYP:12	VAR_OUTPUT
+tTimeToEvacHoses	@IV 24	@TYP:12	VAR_INPUT

@@ -1,0 +1,286 @@
+(*
+T: FUNCTION_BLOCK IL_AO_V1_01
+FW: NO
+CI#: 58
+QSL: 46
+QVE: 46
+QVPC: 46
+QPar: 15
+QFBI: 6
+*)
+@V 1 6 0
+xActivate	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+xReset	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+dwInputAddress	3	VAR_INPUT	@TYP:19
+		     
+
+;
+
+@V 1 9 0
+udtChannel1	4	VAR_INPUT	@TYP:1061
+		     
+
+;
+
+@V 1 10 0
+udtChannel2	5	VAR_INPUT	@TYP:1061
+		     
+
+;
+
+@V 1 11 0
+iSelectChannels	6	VAR_INPUT	@TYP:3
+		     
+@TYP:3# 00#0003
+;
+
+@V 1 12 0
+iModulType	7	VAR_INPUT	@TYP:3
+		     
+@TYP:3# 00#0004
+;
+
+@V 1 13 0
+iOutputBehavior	8	VAR_INPUT	@TYP:3
+		     
+@TYP:3# 00#0002
+;
+
+@V 1 14 0
+iParameters	9	VAR_INPUT	@TYP:3
+		     
+@TYP:3# 00#0002
+;
+
+@V 1 15 0
+bTyp_BP_SF	10	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+xActive	11	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 24 0
+xError	12	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+wDiagCode	13	VAR_OUTPUT	@TYP:18
+		     
+
+;
+
+@V 1 26 0
+wAddDiagCode	14	VAR_OUTPUT	@TYP:18
+		     
+
+;
+
+@V 1 27 0
+dwOutputAddress	15	VAR_OUTPUT	@TYP:19
+		     
+
+;
+
+@V 1 35 0
+r_Value_CH1	16	VAR	@TYP:10
+		     
+
+;
+
+@V 1 36 0
+r_Value_CH2	17	VAR	@TYP:10
+		     
+
+;
+
+@V 1 37 0
+rMaxValue	18	VAR	@TYP:10
+		     
+
+;
+
+@V 1 38 0
+rAnalogOUT_CH2	19	VAR	@TYP:10
+		     
+
+;
+
+@V 1 39 0
+iSelectChannels_Help	20	VAR	@TYP:3
+		     
+
+;
+
+@V 1 40 0
+dwPara	21	VAR	@TYP:19
+		     
+
+;
+
+@V 1 41 0
+rMinValue	22	VAR	@TYP:10
+		     
+
+;
+
+@V 1 42 0
+iStep	23	VAR	@TYP:3
+		     
+
+;
+
+@V 1 43 0
+R_TRIG_Activate	24	VAR	@FB:41
+		     
+
+;
+
+@V 1 44 0
+R_TRIG_Reset	25	VAR	@FB:41
+		     
+
+;
+
+@V 1 45 0
+xParaDone	26	VAR	@TYP:1
+		     
+
+;
+
+@V 1 46 0
+F_TRIG_Activate	27	VAR	@FB:40
+		     
+
+;
+
+@V 1 47 0
+TON_TimeOut	28	VAR	@FB:39
+		     
+
+;
+
+@V 1 48 0
+rHI_Limit_CH2_Help	29	VAR	@TYP:10
+		     
+
+;
+
+@V 1 49 0
+rLO_Limit_CH2_Help	30	VAR	@TYP:10
+		     
+
+;
+
+@V 1 50 0
+rLO_Limit_CH1_Help	31	VAR	@TYP:10
+		     
+
+;
+
+@V 1 51 0
+rHI_Limit_CH1_Help	32	VAR	@TYP:10
+		     
+
+;
+
+@V 1 52 0
+xStartTimeout	33	VAR	@TYP:1
+		     
+
+;
+
+@V 1 53 0
+wInputAddressHelp	34	VAR	@TYP:18
+		     
+
+;
+
+@V 1 54 0
+wParaHelp	35	VAR	@TYP:18
+		     
+
+;
+
+@V 1 55 0
+wparaHelp2	36	VAR	@TYP:18
+		     
+
+;
+
+@V 1 56 0
+wInputAddressHelp2	37	VAR	@TYP:18
+		     
+
+;
+
+@V 1 57 0
+rResolution	38	VAR	@TYP:10
+		     
+
+;
+
+@V 1 58 0
+rAnalogOUT_CH1	39	VAR	@TYP:10
+		     
+
+;
+
+@V 1 59 0
+dHelp_CH1	40	VAR	@TYP:18
+		     
+
+;
+
+@V 1 60 0
+wHelp_CH2	41	VAR	@TYP:18
+		     
+
+;
+
+@V 1 61 0
+xStartWaitPara1	42	VAR	@TYP:1
+		     
+
+;
+
+@V 1 62 0
+xStartWaitPara2	43	VAR	@TYP:1
+		     
+
+;
+
+@V 1 70 0
+TON_WAIT_Para1	44	VAR	@FB:39
+		     
+
+;
+
+@V 1 71 0
+TON_WAIT_Para2	45	VAR	@FB:39
+		     
+
+;
+
+@V 2 54 0
+@T_IL_AO_V1_01_00	46	VAR	@TYP:3
+		     
+
+;
+PFW: RDT

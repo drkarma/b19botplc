@@ -1,0 +1,21 @@
+(*
+T: FUNCTION_BLOCK IL_AI_8_V2_15
+FW: NO
+CI#: 60
+QSL: 27
+QVE: 27
+QVPC: 27
+QPar: 11
+QFBI: 2
+*)
+bSelect	@IV 2	@TYP:17	VAR_INPUT
+dwInputAddress	@IV 4	@TYP:19	VAR_INPUT
+dwOutputAddress	@IV 11	@TYP:19	VAR_OUTPUT
+udtData	@IV 10	@TYP:1065	VAR_OUTPUT
+udtParameter	@IV 3	@TYP:1064	VAR_INPUT
+wAddDiagCode	@IV 8	@TYP:18	VAR_OUTPUT
+wDiagCode	@IV 7	@TYP:18	VAR_OUTPUT
+xActivate	@IV 1	@TYP:1	VAR_INPUT
+xError	@IV 6	@TYP:1	VAR_OUTPUT
+xReady	@IV 5	@TYP:1	VAR_OUTPUT
+xSelectValid	@IV 9	@TYP:1	VAR_OUTPUT

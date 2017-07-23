@@ -1,0 +1,25 @@
+(*
+T: FUNCTION_BLOCK IL_AO_V1_01
+FW: NO
+CI#: 58
+QSL: 46
+QVE: 46
+QVPC: 46
+QPar: 15
+QFBI: 6
+*)
+bTyp_BP_SF	@IV 10	@TYP:1	VAR_INPUT
+dwInputAddress	@IV 3	@TYP:19	VAR_INPUT
+dwOutputAddress	@IV 15	@TYP:19	VAR_OUTPUT
+iModulType	@IV 7	@TYP:3	VAR_INPUT
+iOutputBehavior	@IV 8	@TYP:3	VAR_INPUT
+iParameters	@IV 9	@TYP:3	VAR_INPUT
+iSelectChannels	@IV 6	@TYP:3	VAR_INPUT
+udtChannel1	@IV 4	@TYP:1061	VAR_INPUT
+udtChannel2	@IV 5	@TYP:1061	VAR_INPUT
+wAddDiagCode	@IV 14	@TYP:18	VAR_OUTPUT
+wDiagCode	@IV 13	@TYP:18	VAR_OUTPUT
+xActivate	@IV 1	@TYP:1	VAR_INPUT
+xActive	@IV 11	@TYP:1	VAR_OUTPUT
+xError	@IV 12	@TYP:1	VAR_OUTPUT
+xReset	@IV 2	@TYP:1	VAR_INPUT

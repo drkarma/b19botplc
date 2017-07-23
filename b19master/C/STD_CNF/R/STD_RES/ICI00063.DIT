@@ -1,0 +1,34 @@
+(*
+T: FUNCTION_BLOCK IL_AO_Channel_V1_01
+FW: NO
+CI#: 63
+QSL: 4
+QVE: 4
+QVPC: 4
+QPar: 4
+QFBI: 0
+*)
+@V 1 6 0
+rNormValue	1	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 7 0
+rHI_Limit	2	VAR_INPUT	@TYP:10
+		     
+@TYP:10# 0.00000000E+000
+;
+
+@V 1 8 0
+rLO_Limit	3	VAR_INPUT	@TYP:10
+		     
+@TYP:10# 0.00000000E+000
+;
+
+@V 1 16 0
+udtChannel	4	VAR_OUTPUT	@TYP:1061
+		     
+
+;
+

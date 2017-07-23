@@ -1,0 +1,16 @@
+13    
+CONSEQ_NUM	LOGNUM_REM	LOGNUM_LOCAL	ID_CODE	PD_LENGTH	PA_LENGTH	PHYS_A1	PHYS_W1	PHYS_W2	DEV_NAME	STATION_NAME	VENDOR	GROUP	TYPE	ORDER_NR	PROFILE_NR	MAX_CURRENT	MAX_DEV	BMK	PLANT_BMK	LOC_BMK	CONSTRUCT_TYPE	CABLE_IDX	CABLE_LENGTH	CABLE_BMK	FDCML_FILE
+1	0	1	189	8	0	14	0	14			Phoenix Contact		IB IL 24 DO 8/HD-PAC	2700172										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DO_8_HD-PACvxx.xml	
+2	0	2	189	8	0	14	0	14			Phoenix Contact		IB IL 24 DO 8/HD-PAC	2700172										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DO_8_HD-PACvxx.xml	
+3	0	3	190	8	0	14	0	14			Phoenix Contact		IB IL 24 DI 8/HD-PAC	2700173										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DI_8_HD-PACvxx.xml	
+4	0	4	190	8	0	14	0	14			Phoenix Contact		IB IL 24 DI 8/HD-PAC	2700173										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DI_8_HD-PACvxx.xml	
+5	0	5	190	8	0	14	0	14			Phoenix Contact		IB IL 24 DI 8/HD-PAC	2700173										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DI_8_HD-PACvxx.xml	
+6	0	6	95	32	0	14	0	14			Phoenix Contact		IB IL AI 8/SF-PAC	2861412										xxx	INTERBUS\Phoenix Contact\ib_il_ai_8_sf-pacvxx.xml	
+7	0	7	91	32	0	14	0	14			Phoenix Contact		IB IL AO 2/SF-PAC	2863083										xxx	INTERBUS\Phoenix Contact\ib_il_ao_2_sf-pacvxx.xml	
+8	0	8	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+9	0	9	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+10	0	10	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+11	0	11	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+12	0	12	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+13	0	13	191	32	0	14	0	14			Phoenix Contact		IB IL CNT-PAC	2861852										xxx	INTERBUS\Phoenix Contact\IB_IL_CNT-PACvxx.xml	
+ETHERNET\Phoenix Contact\ilc_131_ethmce_dtmv00_4.30.xml

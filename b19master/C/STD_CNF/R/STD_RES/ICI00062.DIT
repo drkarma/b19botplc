@@ -1,0 +1,106 @@
+(*
+T: FUNCTION_BLOCK FB_MK_CP_BOTSEL
+FW: NO
+CI#: 62
+QSL: 16
+QVE: 16
+QVPC: 16
+QPar: 15
+QFBI: 0
+*)
+@V 1 6 0
+diBottle1CurrentPulse	1	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 7 0
+diBottle1MaxValue	2	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 8 0
+diBottle2MaxValue	3	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 9 0
+diBottle2CurrentPulse	4	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 10 0
+diBottle3MaxValue	5	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 11 0
+diBottle3CurrentPulse	6	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 12 0
+diBottle4MaxValue	7	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 13 0
+diBottle4CurrentPulse	8	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 14 0
+diBottle5MaxValue	9	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 15 0
+diBottle6MaxValue	10	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 16 0
+diBottle5CurrentPulse	11	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 17 0
+diBottle6CurrentPulse	12	VAR_INPUT	@TYP:4
+		     
+
+;
+
+@V 1 18 0
+iBaselineBottle	13	VAR_INPUT	@TYP:3
+		     
+
+;
+
+@V 1 26 0
+diMaxPulses	14	VAR_OUTPUT	@TYP:4
+		     
+
+;
+
+@V 1 27 0
+diCurrentPulse	15	VAR_OUTPUT	@TYP:4
+		     
+
+;
+
+@V 2 4 0
+@T_FB_MK_CP_BOTSEL_00	16	VAR	@TYP:3
+		     
+
+;
+PFW: RDT

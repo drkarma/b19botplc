@@ -1,0 +1,25 @@
+(*
+T: FUNCTION_BLOCK FB_MK_CP_BOTSEL
+FW: NO
+CI#: 62
+QSL: 16
+QVE: 16
+QVPC: 16
+QPar: 15
+QFBI: 0
+*)
+diBottle1CurrentPulse	@IV 1	@TYP:4	VAR_INPUT
+diBottle1MaxValue	@IV 2	@TYP:4	VAR_INPUT
+diBottle2CurrentPulse	@IV 4	@TYP:4	VAR_INPUT
+diBottle2MaxValue	@IV 3	@TYP:4	VAR_INPUT
+diBottle3CurrentPulse	@IV 6	@TYP:4	VAR_INPUT
+diBottle3MaxValue	@IV 5	@TYP:4	VAR_INPUT
+diBottle4CurrentPulse	@IV 8	@TYP:4	VAR_INPUT
+diBottle4MaxValue	@IV 7	@TYP:4	VAR_INPUT
+diBottle5CurrentPulse	@IV 11	@TYP:4	VAR_INPUT
+diBottle5MaxValue	@IV 9	@TYP:4	VAR_INPUT
+diBottle6CurrentPulse	@IV 12	@TYP:4	VAR_INPUT
+diBottle6MaxValue	@IV 10	@TYP:4	VAR_INPUT
+diCurrentPulse	@IV 15	@TYP:4	VAR_OUTPUT
+diMaxPulses	@IV 14	@TYP:4	VAR_OUTPUT
+iBaselineBottle	@IV 13	@TYP:3	VAR_INPUT

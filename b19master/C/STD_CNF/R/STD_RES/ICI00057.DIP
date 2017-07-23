@@ -1,0 +1,21 @@
+(*
+T: FUNCTION_BLOCK PC_COUNT
+FW: NO
+CI#: 57
+QSL: 11
+QVE: 11
+QVPC: 11
+QPar: 11
+QFBI: 0
+*)
+I_BehaviourBusReset	@IV 1	@TYP:1	VAR_INPUT
+I_Continuous	@IV 5	@TYP:1	VAR_INPUT
+I_Direction	@IV 6	@TYP:1	VAR_INPUT
+I_EndValue	@IV 10	@TYP:4	VAR_INPUT
+I_Gate	@IV 4	@TYP:3	VAR_INPUT
+I_InputSwitching	@IV 2	@TYP:3	VAR_INPUT
+I_Output	@IV 7	@TYP:3	VAR_INPUT
+I_PulseWidth	@IV 8	@TYP:3	VAR_INPUT
+I_SourceGateConnection	@IV 3	@TYP:3	VAR_INPUT
+I_StartValue	@IV 9	@TYP:4	VAR_INPUT
+OUT_C_COUNT	@IV 11	@TYP:1056	VAR_OUTPUT

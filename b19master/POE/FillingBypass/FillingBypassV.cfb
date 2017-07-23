@@ -1,0 +1,8 @@
+ton_Delay_Push	TON
+InfeedCylinderPushTimer	TON
+countBottles	CTU
+timerOffResetCounter	TOF
+tWaitingForLastBottlePulse	TP
+fbFTRIG_last_bottle	F_TRIG
+fbRTRIGbottleCount	R_TRIG
+FalsePositivePulse	TP
