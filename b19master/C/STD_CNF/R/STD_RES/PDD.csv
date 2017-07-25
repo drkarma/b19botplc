@@ -46,6 +46,7 @@ Name,Data Type
 @GV.tInfeedCylinderWait,TIME
 @GV.tInfeedBottleCollectionTimer,TIME
 @GV.rNoFoamingPressure,REAL
+@GV.btnForceContinuedSequence,BOOL
 @GV.OF_1_MAN,BOOL
 @GV.OC_1_MAN,BOOL
 @GV.OP_1_MAN,BOOL

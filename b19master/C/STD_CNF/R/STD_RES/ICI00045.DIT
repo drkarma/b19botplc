@@ -310,13 +310,13 @@ SUMMALARM	50	VAR_EXTERNAL	@TYP:1
 
 @V 1 136 0
 INM_STEG_1	51	VAR_EXTERNAL	@TYP:1
-@RV 320		     
+@RV 321		     
 
 ;
 
 @V 1 137 0
 FYLL_STEG_STARTAD	52	VAR_EXTERNAL	@TYP:1
-@RV 366		     
+@RV 367		     
 
 ;
 
@@ -334,7 +334,7 @@ A_FILLING_BOTTLES_NOT	54	VAR_EXTERNAL	@TYP:1
 
 @V 1 140 0
 NOLL	55	VAR_EXTERNAL	@TYP:1
-@RV 218		     
+@RV 219		     
 
 ;
 
@@ -412,7 +412,7 @@ T_A_FILLING_BOTTLE_6	67	VAR	@FB:39
 
 @V 1 161 0
 START_AUTO	68	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
@@ -490,7 +490,7 @@ A_NO_CAPS6	80	VAR_EXTERNAL	@TYP:1
 
 @V 1 174 0
 INM_STEG_3	81	VAR_EXTERNAL	@TYP:1
-@RV 322		     
+@RV 323		     
 
 ;
 
@@ -514,7 +514,7 @@ A_ONP	84	VAR_EXTERNAL	@TYP:1
 
 @V 1 178 0
 AUTO	85	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 
@@ -538,7 +538,7 @@ OCF	88	VAR_EXTERNAL	@TYP:1
 
 @V 1 190 0
 KAP_STEG_STARTAD	89	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
@@ -664,31 +664,31 @@ CAP_UP	109	VAR_EXTERNAL	@TYP:1
 
 @V 1 227 0
 bAlarmUseEmergencyStop	110	VAR_EXTERNAL	@TYP:1
-@RV 429		     
+@RV 430		     
 
 ;
 
 @V 1 228 0
 bAlarmUseAutoFuse	111	VAR_EXTERNAL	@TYP:1
-@RV 430		     
+@RV 431		     
 
 ;
 
 @V 1 229 0
 bAlarmUseDoor1Alarm	112	VAR_EXTERNAL	@TYP:1
-@RV 432		     
+@RV 433		     
 
 ;
 
 @V 1 230 0
 bAlarmUseDoor2Alarm	113	VAR_EXTERNAL	@TYP:1
-@RV 431		     
+@RV 432		     
 
 ;
 
 @V 1 231 0
 bAlarmUseFillLevelTimeAlarm	114	VAR_EXTERNAL	@TYP:1
-@RV 433		     
+@RV 434		     
 
 ;
 

@@ -2,153 +2,153 @@
 T: PROGRAM Main
 FW: NO
 CI#: 53
-QSL: 176
-QVE: 176
-QVPC: 176
+QSL: 179
+QVE: 179
+QVPC: 179
 QPar: 0
-QFBI: 46
+QFBI: 48
 *)
 @V 1 6 0
 ETT	1	VAR_EXTERNAL	@TYP:1
-@RV 217		     
+@RV 218		     
 
 ;
 
 @V 1 7 0
 NOLL	2	VAR_EXTERNAL	@TYP:1
-@RV 218		     
+@RV 219		     
 
 ;
 
 @V 1 8 0
 START	3	VAR_EXTERNAL	@TYP:1
-@RV 213		     
+@RV 214		     
 
 ;
 
 @V 1 9 0
 AUTO	4	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 
 @V 1 10 0
 STOPP	5	VAR_EXTERNAL	@TYP:1
-@RV 214		     
+@RV 215		     
 
 ;
 
 @V 1 11 0
 START_AUTO	6	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
 @V 1 12 0
 FYLL_STEG_RESET	7	VAR_EXTERNAL	@TYP:1
-@RV 368		     
+@RV 369		     
 
 ;
 
 @V 1 13 0
 INM_STEG_RESET	8	VAR_EXTERNAL	@TYP:1
-@RV 342		     
+@RV 343		     
 
 ;
 
 @V 1 14 0
 UTM_STEG_RESET	9	VAR_EXTERNAL	@TYP:1
-@RV 424		     
+@RV 425		     
 
 ;
 
 @V 1 15 0
 KAP_STEG_RESET	10	VAR_EXTERNAL	@TYP:1
-@RV 396		     
+@RV 397		     
 
 ;
 
 @V 1 16 0
 OBE_1_MAN	11	VAR_EXTERNAL	@TYP:1
-@RV 202		     
+@RV 203		     
 
 ;
 
 @V 1 17 0
 OBE_2_MAN	12	VAR_EXTERNAL	@TYP:1
-@RV 203		     
+@RV 204		     
 
 ;
 
 @V 1 18 0
 OC_1_MAN	13	VAR_EXTERNAL	@TYP:1
-@RV 198		     
+@RV 199		     
 
 ;
 
 @V 1 19 0
 OF_1_MAN	14	VAR_EXTERNAL	@TYP:1
-@RV 197		     
+@RV 198		     
 
 ;
 
 @V 1 20 0
 OL_1_MAN	15	VAR_EXTERNAL	@TYP:1
-@RV 200		     
+@RV 201		     
 
 ;
 
 @V 1 21 0
 UTM_STEG_TILL	16	VAR_EXTERNAL	@TYP:1
-@RV 425		     
+@RV 426		     
 
 ;
 
 @V 1 22 0
 UTM_STEG_1	17	VAR_EXTERNAL	@TYP:1
-@RV 402		     
+@RV 403		     
 
 ;
 
 @V 1 23 0
 FYLL_STEG_5	18	VAR_EXTERNAL	@TYP:1
-@RV 350		     
+@RV 351		     
 
 ;
 
 @V 1 24 0
 FYLL_STEG_STARTAD	19	VAR_EXTERNAL	@TYP:1
-@RV 366		     
+@RV 367		     
 
 ;
 
 @V 1 25 0
 UTM_STEG_TILL_KAPPING	20	VAR_EXTERNAL	@TYP:1
-@RV 426		     
+@RV 427		     
 
 ;
 
 @V 1 26 0
 KAP_STEG_STARTAD	21	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
 @V 1 27 0
 START_AUTO_FIRST	22	VAR_EXTERNAL	@TYP:1
-@RV 212		     
+@RV 213		     
 
 ;
 
 @V 1 28 0
 UTM_STEG_STARTAD	23	VAR_EXTERNAL	@TYP:1
-@RV 422		     
+@RV 423		     
 
 ;
 
 @V 1 29 0
 KAP_STEG_1	24	VAR_EXTERNAL	@TYP:1
-@RV 374		     
+@RV 375		     
 
 ;
 
@@ -166,7 +166,7 @@ OCS_1	26	VAR_EXTERNAL	@TYP:1
 
 @V 1 40 0
 FYLL_STEG_4	27	VAR_EXTERNAL	@TYP:1
-@RV 349		     
+@RV 350		     
 
 ;
 
@@ -184,7 +184,7 @@ FULL_BOTTLE	29	VAR_EXTERNAL	@TYP:1
 
 @V 1 43 0
 FYLL_STEG_7	30	VAR_EXTERNAL	@TYP:1
-@RV 352		     
+@RV 353		     
 
 ;
 
@@ -256,7 +256,7 @@ FULL_BOTTLE_6	41	VAR_EXTERNAL	@TYP:1
 
 @V 1 55 0
 INM_STEG_3	42	VAR_EXTERNAL	@TYP:1
-@RV 322		     
+@RV 323		     
 
 ;
 
@@ -304,7 +304,7 @@ FILTER_B6_TON_1	49	VAR	@FB:39
 
 @V 1 79 0
 FYLL_STEG_5_TIME	50	VAR_EXTERNAL	@TYP:12
-@RV 360		     
+@RV 361		     
 
 ;
 
@@ -478,13 +478,13 @@ FPID_1	78	VAR	@FB:55
 
 @V 1 148 0
 bSelect	79	VAR_EXTERNAL	@TYP:17
-@RV 427		     
+@RV 428		     
 
 ;
 
 @V 1 149 0
 xActive	80	VAR_EXTERNAL	@TYP:1
-@RV 428		     
+@RV 429		     
 
 ;
 
@@ -886,7 +886,7 @@ bCO2Valve	146	VAR_EXTERNAL	@TYP:1
 
 @V 1 240 0
 FYLL_STEG_2	147	VAR_EXTERNAL	@TYP:1
-@RV 347		     
+@RV 348		     
 
 ;
 
@@ -916,7 +916,7 @@ bWeHaveCounterPressure	151	VAR_EXTERNAL	@TYP:1
 
 @V 1 245 0
 INM_STEG_2	152	VAR_EXTERNAL	@TYP:1
-@RV 321		     
+@RV 322		     
 
 ;
 
@@ -1061,6 +1061,24 @@ TP_CheckValue	175	VAR	@FB:36
 @V 1 285 0
 bPreDrainOK	176	VAR_EXTERNAL	@TYP:1
 @RV 196		     
+
+;
+
+@V 1 290 0
+tonHoldAllBottlesFull	177	VAR	@FB:39
+		     
+
+;
+
+@V 1 291 0
+TP_BottlesFilled	178	VAR	@FB:36
+		     
+
+;
+
+@V 1 296 0
+btnForceContinuedSequence	179	VAR_EXTERNAL	@TYP:1
+@RV 197		     
 
 ;
 

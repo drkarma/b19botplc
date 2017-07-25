@@ -16,7 +16,7 @@ IT_1	1	VAR_EXTERNAL	@TYP:1
 
 @V 1 7 0
 KAP_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
@@ -34,7 +34,7 @@ IP_2	4	VAR_EXTERNAL	@TYP:1
 
 @V 1 10 0
 UTM_STEG_2	5	VAR_EXTERNAL	@TYP:1
-@RV 403		     
+@RV 404		     
 
 ;
 
@@ -52,79 +52,79 @@ IB_1	7	VAR_EXTERNAL	@TYP:1
 
 @V 1 13 0
 START_AUTO	8	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
 @V 1 14 0
 UTM_STEG_RESET	9	VAR_EXTERNAL	@TYP:1
-@RV 424		     
+@RV 425		     
 
 ;
 
 @V 1 15 0
 UTM_STEG_STARTAD	10	VAR_EXTERNAL	@TYP:1
-@RV 422		     
+@RV 423		     
 
 ;
 
 @V 1 16 0
 UTM_STEG_1	11	VAR_EXTERNAL	@TYP:1
-@RV 402		     
+@RV 403		     
 
 ;
 
 @V 1 17 0
 UTM_STEG_3	12	VAR_EXTERNAL	@TYP:1
-@RV 404		     
+@RV 405		     
 
 ;
 
 @V 1 18 0
 UTM_STEG_4	13	VAR_EXTERNAL	@TYP:1
-@RV 405		     
+@RV 406		     
 
 ;
 
 @V 1 19 0
 UTM_STEG_5	14	VAR_EXTERNAL	@TYP:1
-@RV 406		     
+@RV 407		     
 
 ;
 
 @V 1 20 0
 UTM_STEG_6	15	VAR_EXTERNAL	@TYP:1
-@RV 407		     
+@RV 408		     
 
 ;
 
 @V 1 21 0
 UTM_STEG_7	16	VAR_EXTERNAL	@TYP:1
-@RV 408		     
+@RV 409		     
 
 ;
 
 @V 1 22 0
 UTM_STEG_8	17	VAR_EXTERNAL	@TYP:1
-@RV 409		     
+@RV 410		     
 
 ;
 
 @V 1 23 0
 UTM_STEG_9	18	VAR_EXTERNAL	@TYP:1
-@RV 410		     
+@RV 411		     
 
 ;
 
 @V 1 24 0
 UTM_STEG_10	19	VAR_EXTERNAL	@TYP:1
-@RV 411		     
+@RV 412		     
 
 ;
 
 @V 1 25 0
 UTM_STEG_NR	20	VAR_EXTERNAL	@TYP:3
-@RV 423		     
+@RV 424		     
 
 ;
 
@@ -148,31 +148,31 @@ STEG2_TON	23	VAR	@FB:39
 
 @V 1 37 0
 INM_STEG_STARTAD	24	VAR_EXTERNAL	@TYP:1
-@RV 340		     
+@RV 341		     
 
 ;
 
 @V 1 38 0
 UTM_STEG_1_TIME	25	VAR_EXTERNAL	@TYP:12
-@RV 412		     
+@RV 413		     
 
 ;
 
 @V 1 39 0
 UTM_STEG_2_TIME	26	VAR_EXTERNAL	@TYP:12
-@RV 413		     
+@RV 414		     
 
 ;
 
 @V 1 40 0
 FYLL_STEG_3	27	VAR_EXTERNAL	@TYP:1
-@RV 348		     
+@RV 349		     
 
 ;
 
 @V 1 41 0
 FYLL_STEG_4	28	VAR_EXTERNAL	@TYP:1
-@RV 349		     
+@RV 350		     
 
 ;
 
@@ -184,13 +184,13 @@ IOC_1	29	VAR_EXTERNAL	@TYP:1
 
 @V 1 43 0
 KAP_STEG_2	30	VAR_EXTERNAL	@TYP:1
-@RV 375		     
+@RV 376		     
 
 ;
 
 @V 1 44 0
 FYLL_STEG_5	31	VAR_EXTERNAL	@TYP:1
-@RV 350		     
+@RV 351		     
 
 ;
 
@@ -208,13 +208,13 @@ bOKtoFill	33	VAR_EXTERNAL	@TYP:1
 
 @V 1 47 0
 KAP_STEG_4	34	VAR_EXTERNAL	@TYP:1
-@RV 377		     
+@RV 378		     
 
 ;
 
 @V 1 48 0
 CAP_IS_PREPARED	35	VAR_EXTERNAL	@TYP:1
-@RV 398		     
+@RV 399		     
 
 ;
 

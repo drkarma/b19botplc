@@ -22,19 +22,19 @@ DISK_STEG_1	2	VAR_EXTERNAL	@TYP:1
 
 @V 1 8 0
 OF_1_MAN	3	VAR_EXTERNAL	@TYP:1
-@RV 197		     
+@RV 198		     
 
 ;
 
 @V 1 9 0
 OCM_1_MAN	4	VAR_EXTERNAL	@TYP:1
-@RV 209		     
+@RV 210		     
 
 ;
 
 @V 1 10 0
 AUTO	5	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 
@@ -118,7 +118,7 @@ DISK_BEER6_TON_1	18	VAR	@FB:39
 
 @V 1 72 0
 ONP_1_MAN	19	VAR_EXTERNAL	@TYP:1
-@RV 208		     
+@RV 209		     
 
 ;
 

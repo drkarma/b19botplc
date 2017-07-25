@@ -44,3 +44,5 @@ Analog_range_Ch1	IL_AO_Channel_V1_01
 Analogue_Out_CP	IL_AO_V1_01
 FB_MK_CPRESS_1	FB_MK_CPRESS
 TP_CheckValue	TP
+tonHoldAllBottlesFull	TON
+TP_BottlesFilled	TP

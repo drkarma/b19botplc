@@ -10,91 +10,91 @@ QFBI: 11
 *)
 @V 1 6 0
 INM_STEG_RESET	1	VAR_EXTERNAL	@TYP:1
-@RV 342		     
+@RV 343		     
 
 ;
 
 @V 1 7 0
 INM_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
-@RV 340		     
+@RV 341		     
 
 ;
 
 @V 1 8 0
 INM_STEG_1	3	VAR_EXTERNAL	@TYP:1
-@RV 320		     
+@RV 321		     
 
 ;
 
 @V 1 9 0
 INM_STEG_2	4	VAR_EXTERNAL	@TYP:1
-@RV 321		     
+@RV 322		     
 
 ;
 
 @V 1 10 0
 INM_STEG_3	5	VAR_EXTERNAL	@TYP:1
-@RV 322		     
+@RV 323		     
 
 ;
 
 @V 1 11 0
 INM_STEG_4	6	VAR_EXTERNAL	@TYP:1
-@RV 323		     
+@RV 324		     
 
 ;
 
 @V 1 12 0
 INM_STEG_5	7	VAR_EXTERNAL	@TYP:1
-@RV 324		     
+@RV 325		     
 
 ;
 
 @V 1 13 0
 INM_STEG_6	8	VAR_EXTERNAL	@TYP:1
-@RV 325		     
+@RV 326		     
 
 ;
 
 @V 1 14 0
 INM_STEG_7	9	VAR_EXTERNAL	@TYP:1
-@RV 326		     
+@RV 327		     
 
 ;
 
 @V 1 15 0
 INM_STEG_8	10	VAR_EXTERNAL	@TYP:1
-@RV 327		     
+@RV 328		     
 
 ;
 
 @V 1 16 0
 INM_STEG_9	11	VAR_EXTERNAL	@TYP:1
-@RV 328		     
+@RV 329		     
 
 ;
 
 @V 1 17 0
 INM_STEG_10	12	VAR_EXTERNAL	@TYP:1
-@RV 329		     
+@RV 330		     
 
 ;
 
 @V 1 18 0
 INM_STEG_NR	13	VAR_EXTERNAL	@TYP:3
-@RV 341		     
+@RV 342		     
 
 ;
 
 @V 1 19 0
 UTM_STEG_STARTAD	14	VAR_EXTERNAL	@TYP:1
-@RV 422		     
+@RV 423		     
 
 ;
 
 @V 1 20 0
 FYLL_STEG_STARTAD	15	VAR_EXTERNAL	@TYP:1
-@RV 366		     
+@RV 367		     
 
 ;
 
@@ -106,7 +106,7 @@ STEG1_TON	16	VAR	@FB:39
 
 @V 1 30 0
 INM_STEG_1_TIME	17	VAR_EXTERNAL	@TYP:12
-@RV 330		     
+@RV 331		     
 
 ;
 
@@ -118,7 +118,7 @@ STEG2_TON	18	VAR	@FB:39
 
 @V 1 40 0
 INM_STEG_2_TIME	19	VAR_EXTERNAL	@TYP:12
-@RV 331		     
+@RV 332		     
 
 ;
 
@@ -136,13 +136,13 @@ IT_1	21	VAR_EXTERNAL	@TYP:1
 
 @V 1 43 0
 KAP_STEG_STARTAD	22	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
 @V 1 44 0
 START_AUTO	23	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
@@ -172,13 +172,13 @@ ICM_2	27	VAR_EXTERNAL	@TYP:1
 
 @V 1 57 0
 INM_ICM_2_CONT	28	VAR_EXTERNAL	@TYP:3
-@RV 343		     
+@RV 344		     
 
 ;
 
 @V 1 58 0
 INM_ICM_2_CONT_DONE	29	VAR_EXTERNAL	@TYP:1
-@RV 344		     
+@RV 345		     
 
 ;
 
@@ -190,7 +190,7 @@ ICM_1	30	VAR_EXTERNAL	@TYP:1
 
 @V 1 60 0
 INM_STEG_3_TIME	31	VAR_EXTERNAL	@TYP:12
-@RV 332		     
+@RV 333		     
 
 ;
 
@@ -208,7 +208,7 @@ OP_1	33	VAR_EXTERNAL	@TYP:1
 
 @V 1 71 0
 INM_STEG_4_TIME	34	VAR_EXTERNAL	@TYP:12
-@RV 333		     
+@RV 334		     
 
 ;
 
@@ -232,7 +232,7 @@ C031	37	VAR	@TYP:1
 PFW: RDT
 @V 1 91 0
 C033	38	VAR_EXTERNAL	@TYP:1
-@RV 345		     
+@RV 346		     
 
 ;
 
@@ -262,13 +262,13 @@ ONP_1	42	VAR_EXTERNAL	@TYP:1
 
 @V 1 104 0
 NOLL	43	VAR_EXTERNAL	@TYP:1
-@RV 218		     
+@RV 219		     
 
 ;
 
 @V 1 105 0
 AUTO	44	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 

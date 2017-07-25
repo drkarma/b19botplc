@@ -16,7 +16,7 @@ IB_1	1	VAR_EXTERNAL	@TYP:1
 
 @V 1 7 0
 INM_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
-@RV 340		     
+@RV 341		     
 
 ;
 
@@ -28,7 +28,7 @@ IF_2	3	VAR_EXTERNAL	@TYP:1
 
 @V 1 9 0
 FYLL_STEG_2	4	VAR_EXTERNAL	@TYP:1
-@RV 347		     
+@RV 348		     
 
 ;
 
@@ -40,7 +40,7 @@ IT_1	5	VAR_EXTERNAL	@TYP:1
 
 @V 1 11 0
 FYLL_STEG_3_TIME	6	VAR_EXTERNAL	@TYP:12
-@RV 358		     
+@RV 359		     
 
 ;
 
@@ -52,7 +52,7 @@ STEG3_TON	7	VAR	@FB:39
 
 @V 1 21 0
 FYLL_STEG_3	8	VAR_EXTERNAL	@TYP:1
-@RV 348		     
+@RV 349		     
 
 ;
 
@@ -70,13 +70,13 @@ STEG4_TON	10	VAR	@FB:39
 
 @V 1 32 0
 FYLL_STEG_4	11	VAR_EXTERNAL	@TYP:1
-@RV 349		     
+@RV 350		     
 
 ;
 
 @V 1 33 0
 FYLL_STEG_4_TIME	12	VAR_EXTERNAL	@TYP:12
-@RV 359		     
+@RV 360		     
 
 ;
 
@@ -94,7 +94,7 @@ IB_1_2	14	VAR_EXTERNAL	@TYP:1
 
 @V 1 36 0
 FYLL_STEG_5_TIME	15	VAR_EXTERNAL	@TYP:12
-@RV 360		     
+@RV 361		     
 
 ;
 
@@ -106,7 +106,7 @@ STEG5_TON	16	VAR	@FB:39
 
 @V 1 46 0
 FYLL_STEG_5	17	VAR_EXTERNAL	@TYP:1
-@RV 350		     
+@RV 351		     
 
 ;
 
@@ -118,7 +118,7 @@ IF_1	18	VAR_EXTERNAL	@TYP:1
 
 @V 1 48 0
 FYLL_STEG_6_TIME	19	VAR_EXTERNAL	@TYP:12
-@RV 361		     
+@RV 362		     
 
 ;
 
@@ -130,67 +130,67 @@ STEG6_TON	20	VAR	@FB:39
 
 @V 1 58 0
 FYLL_STEG_6	21	VAR_EXTERNAL	@TYP:1
-@RV 351		     
+@RV 352		     
 
 ;
 
 @V 1 59 0
 FYLL_STEG_RESET	22	VAR_EXTERNAL	@TYP:1
-@RV 368		     
+@RV 369		     
 
 ;
 
 @V 1 60 0
 KAP_STEG_STARTAD	23	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
 @V 1 61 0
 START_AUTO	24	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
 @V 1 62 0
 FYLL_STEG_STARTAD	25	VAR_EXTERNAL	@TYP:1
-@RV 366		     
+@RV 367		     
 
 ;
 
 @V 1 63 0
 FYLL_STEG_1	26	VAR_EXTERNAL	@TYP:1
-@RV 346		     
+@RV 347		     
 
 ;
 
 @V 1 64 0
 FYLL_STEG_7	27	VAR_EXTERNAL	@TYP:1
-@RV 352		     
+@RV 353		     
 
 ;
 
 @V 1 65 0
 FYLL_STEG_8	28	VAR_EXTERNAL	@TYP:1
-@RV 353		     
+@RV 354		     
 
 ;
 
 @V 1 66 0
 FYLL_STEG_9	29	VAR_EXTERNAL	@TYP:1
-@RV 354		     
+@RV 355		     
 
 ;
 
 @V 1 67 0
 FYLL_STEG_10	30	VAR_EXTERNAL	@TYP:1
-@RV 355		     
+@RV 356		     
 
 ;
 
 @V 1 68 0
 FYLL_STEG_NR	31	VAR_EXTERNAL	@TYP:3
-@RV 367		     
+@RV 368		     
 
 ;
 
@@ -208,7 +208,7 @@ STEG1_TON	33	VAR	@FB:39
 
 @V 1 79 0
 FYLL_STEG_1_TIME	34	VAR_EXTERNAL	@TYP:12
-@RV 356		     
+@RV 357		     
 
 ;
 
@@ -220,19 +220,19 @@ STEG2_TON	35	VAR	@FB:39
 
 @V 1 89 0
 FYLL_STEG_2_TIME	36	VAR_EXTERNAL	@TYP:12
-@RV 357		     
+@RV 358		     
 
 ;
 
 @V 1 90 0
 UTM_STEG_STARTAD	37	VAR_EXTERNAL	@TYP:1
-@RV 422		     
+@RV 423		     
 
 ;
 
 @V 1 91 0
 UTM_STEG_TILL	38	VAR_EXTERNAL	@TYP:1
-@RV 425		     
+@RV 426		     
 
 ;
 
@@ -256,7 +256,7 @@ STEG7_TON_2	41	VAR	@FB:39
 
 @V 1 103 0
 FYLL_STEG_7_TIME	42	VAR_EXTERNAL	@TYP:12
-@RV 362		     
+@RV 363		     
 
 ;
 
@@ -268,7 +268,7 @@ STEG8_TON_3	43	VAR	@FB:39
 
 @V 1 113 0
 FYLL_STEG_8_TIME	44	VAR_EXTERNAL	@TYP:12
-@RV 363		     
+@RV 364		     
 
 ;
 
@@ -310,7 +310,7 @@ FULL_BOTTLE_6	50	VAR_EXTERNAL	@TYP:1
 
 @V 1 120 0
 INM_STEG_2	51	VAR_EXTERNAL	@TYP:1
-@RV 321		     
+@RV 322		     
 
 ;
 
@@ -376,13 +376,13 @@ bCycleIsDone	61	VAR_EXTERNAL	@TYP:1
 
 @V 1 131 0
 DemoMode	62	VAR_EXTERNAL	@TYP:1
-@RV 369		     
+@RV 370		     
 
 ;
 
 @V 1 132 0
 AUTO	63	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 
@@ -394,7 +394,7 @@ iVentingMode	64	VAR_EXTERNAL	@TYP:3
 
 @V 1 134 0
 iSavedVentingMode	65	VAR_EXTERNAL	@TYP:3
-@RV 370		     
+@RV 371		     
 
 ;
 
@@ -418,13 +418,13 @@ CTUD_StartupSeq	68	VAR	@FB:43
 
 @V 1 146 0
 iIterationsForStartupSequence	69	VAR_EXTERNAL	@TYP:3
-@RV 371		     
+@RV 372		     
 
 ;
 
 @V 1 147 0
 iStartupVentingMode	70	VAR_EXTERNAL	@TYP:3
-@RV 372		     
+@RV 373		     
 
 ;
 
@@ -448,7 +448,7 @@ TP_NonPersistant3	73	VAR	@FB:36
 
 @V 1 159 0
 bToggler	74	VAR_EXTERNAL	@TYP:1
-@RV 373		     
+@RV 374		     
 
 ;
 

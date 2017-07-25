@@ -49,6 +49,7 @@
   <item name="@GV.bDoFillingByPass" type="boolean" />
   <item name="@GV.bFillingBypass_Started" type="boolean" />
   <item name="@GV.rNoFoamingPressure" type="number" />
+  <item name="@GV.btnForceContinuedSequence" type="boolean" />
   <item name="@GV.A_NO_CAPS1" type="boolean" />
   <item name="@GV.A_NO_CAPS2" type="boolean" />
   <item name="@GV.A_NO_CAPS3" type="boolean" />

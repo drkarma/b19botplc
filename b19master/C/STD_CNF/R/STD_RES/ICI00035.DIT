@@ -28,13 +28,13 @@ bBypassStep_2	3	VAR_EXTERNAL	@TYP:1
 
 @V 1 13 0
 AUTO	4	VAR_EXTERNAL	@TYP:1
-@RV 215		     
+@RV 216		     
 
 ;
 
 @V 1 14 0
 KAP_STEG_STARTAD	5	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 

@@ -10,19 +10,19 @@ QFBI: 11
 *)
 @V 1 6 0
 FYLL_STEG_1	1	VAR_EXTERNAL	@TYP:1
-@RV 346		     
+@RV 347		     
 
 ;
 
 @V 1 7 0
 FYLL_STEG_STARTAD	2	VAR_EXTERNAL	@TYP:1
-@RV 366		     
+@RV 367		     
 
 ;
 
 @V 1 8 0
 UPSTART	3	VAR_EXTERNAL	@TYP:1
-@RV 216		     
+@RV 217		     
 
 ;
 
@@ -52,85 +52,85 @@ IC_1	7	VAR_EXTERNAL	@TYP:1
 
 @V 1 13 0
 KAP_STEG_2	8	VAR_EXTERNAL	@TYP:1
-@RV 375		     
+@RV 376		     
 
 ;
 
 @V 1 14 0
 START_AUTO	9	VAR_EXTERNAL	@TYP:1
-@RV 211		     
+@RV 212		     
 
 ;
 
 @V 1 15 0
 KAP_STEG_RESET	10	VAR_EXTERNAL	@TYP:1
-@RV 396		     
+@RV 397		     
 
 ;
 
 @V 1 16 0
 KAP_STEG_STARTAD	11	VAR_EXTERNAL	@TYP:1
-@RV 394		     
+@RV 395		     
 
 ;
 
 @V 1 17 0
 KAP_STEG_1	12	VAR_EXTERNAL	@TYP:1
-@RV 374		     
+@RV 375		     
 
 ;
 
 @V 1 18 0
 KAP_STEG_3	13	VAR_EXTERNAL	@TYP:1
-@RV 376		     
+@RV 377		     
 
 ;
 
 @V 1 19 0
 KAP_STEG_4	14	VAR_EXTERNAL	@TYP:1
-@RV 377		     
+@RV 378		     
 
 ;
 
 @V 1 20 0
 KAP_STEG_5	15	VAR_EXTERNAL	@TYP:1
-@RV 378		     
+@RV 379		     
 
 ;
 
 @V 1 21 0
 KAP_STEG_6	16	VAR_EXTERNAL	@TYP:1
-@RV 379		     
+@RV 380		     
 
 ;
 
 @V 1 22 0
 KAP_STEG_7	17	VAR_EXTERNAL	@TYP:1
-@RV 380		     
+@RV 381		     
 
 ;
 
 @V 1 23 0
 KAP_STEG_8	18	VAR_EXTERNAL	@TYP:1
-@RV 381		     
+@RV 382		     
 
 ;
 
 @V 1 24 0
 KAP_STEG_9	19	VAR_EXTERNAL	@TYP:1
-@RV 382		     
+@RV 383		     
 
 ;
 
 @V 1 25 0
 KAP_STEG_10	20	VAR_EXTERNAL	@TYP:1
-@RV 393		     
+@RV 394		     
 
 ;
 
 @V 1 26 0
 KAP_STEG_NR	21	VAR_EXTERNAL	@TYP:3
-@RV 395		     
+@RV 396		     
 
 ;
 
@@ -142,13 +142,13 @@ SUMMALARM	22	VAR_EXTERNAL	@TYP:1
 
 @V 1 28 0
 UTM_STEG_STARTAD	23	VAR_EXTERNAL	@TYP:1
-@RV 422		     
+@RV 423		     
 
 ;
 
 @V 1 29 0
 INM_STEG_STARTAD	24	VAR_EXTERNAL	@TYP:1
-@RV 340		     
+@RV 341		     
 
 ;
 
@@ -166,25 +166,25 @@ STEG2_TON	26	VAR	@FB:39
 
 @V 1 40 0
 KAP_STEG_1_TIME	27	VAR_EXTERNAL	@TYP:12
-@RV 383		     
+@RV 384		     
 
 ;
 
 @V 1 41 0
 KAP_STEG_2_TIME	28	VAR_EXTERNAL	@TYP:12
-@RV 384		     
+@RV 385		     
 
 ;
 
 @V 1 42 0
 UTM_STEG_TILL_KAPPING	29	VAR_EXTERNAL	@TYP:1
-@RV 426		     
+@RV 427		     
 
 ;
 
 @V 1 43 0
 Kapsylmatning	30	VAR_EXTERNAL	@TYP:1
-@RV 397		     
+@RV 398		     
 
 ;
 
@@ -214,7 +214,7 @@ CAP_PREPARED	34	VAR_EXTERNAL	@TYP:1
 
 @V 1 56 0
 CAP_IS_PREPARED	35	VAR_EXTERNAL	@TYP:1
-@RV 398		     
+@RV 399		     
 
 ;
 
@@ -250,7 +250,7 @@ bLongCapTurnedFully	40	VAR	@TYP:1
 
 @V 1 70 0
 bCORR001MK_FIRST_CAP_TURN_LONG	41	VAR_EXTERNAL	@TYP:1
-@RV 399		     
+@RV 400		     
 
 ;
 
@@ -280,13 +280,13 @@ TP_Non_persist_CapTime2	45	VAR	@FB:36
 
 @V 1 83 0
 tShortCappingTime	46	VAR_EXTERNAL	@TYP:12
-@RV 400		     
+@RV 401		     
 
 ;
 
 @V 1 84 0
 HMI_WAIT_FOR_CAP	47	VAR_EXTERNAL	@TYP:12
-@RV 401		     
+@RV 402		     
 
 ;
 
