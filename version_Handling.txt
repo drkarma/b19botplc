@@ -99,3 +99,9 @@ I did some changes in the sequence of my module. stage 60 is replaced by 61 in o
 There seems to be a root cause item that is still a bit odd. Sometimes we don't get the FYLL_STEG_5 signal, which indicates that all bottles are filled.
 This has impacted the filling. I have implemented a trigger pulse on FYLL_STEG_5 in the "Main" function this gives a signal pulse for 1500 ms to the filling module.
 As a workaround if the fault would happen when I am not in the brewery, I have added a button in the webgui where "Anti-Halt button" can simulate that bottles are filled
+
+2017-08-07 
+We had some problems with sudden stops in iCurrentState 90. I did some changes and simplifications of the previous states i.e. introducing 62.
+Figured out that the problem was related to that the "leftmost" bottle indicator that hinders "FYLL_STEG_2" (ICM_2)
+Later the problem with paddlewheels reseting so that the program gets stuck in "62" Done a workaround that is implemented in "63"
+
